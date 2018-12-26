@@ -1,0 +1,14 @@
+[
+    {
+      "startTime": "12月4日 11:25",
+      "debtor": "张三",
+      "money": 500000,
+      "recordId": "00001"
+    },
+    {
+      "startTime": "12月6日 17:55",
+      "debtor": "李四",
+      "money": 100000,
+      "recordId": "00002"
+    }
+]
