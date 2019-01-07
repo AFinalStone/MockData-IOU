@@ -31,6 +31,16 @@ router.get('/history', function (req, res, next) {
     res.json(resp)
 });
 
+/* 我的会话列表. */
+router.get('/chatlist', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/community/chatlistResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    console.log(json)
+    var data = JSON.parse(json);
+    var resp = new BaseResponse(data);
+    res.json(resp)
+});
+
 
 function BaseResponse(object) {
     this.retCode = 0;

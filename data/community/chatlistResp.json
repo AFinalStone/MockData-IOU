@@ -1,0 +1,76 @@
+[
+  {
+    "dataType": 0,
+    "audioFilePath": "音频文件url",
+    "headerImage": "http://iou-img.oss-cn-shanghai.aliyuncs.com/test/game/nextLife/avatar/2/52/1545384198723.jpg",
+    "headerName": "调解员",
+    "msgContent": "双方开始阐述本案件的相关事实理由与确定要求。 本次每个人拥有8分钟时间进行描述。 请原告开始发言！"
+  },
+  {
+    "dataType": 0,
+    "audioFilePath": "音频文件url",
+    "headerImage": "http://iou-img.oss-cn-shanghai.aliyuncs.com/test/game/nextLife/avatar/2/52/1545384198723.jpg",
+    "headerName": "张三",
+    "msgContent": "我记不清我欠你多少钱了"
+  },
+  {
+    "dataType": 0,
+    "audioFilePath": "音频文件url",
+    "headerImage": "http://iou-img.oss-cn-shanghai.aliyuncs.com/test/game/nextLife/avatar/9/7/1545200638981.jpg",
+    "headerName": "我",
+    "msgContent": "你真行啊，不还就不说了，居然都忘记了"
+  },
+  {
+    "dataType": 0,
+    "audioFilePath": "音频文件url",
+    "headerImage": "http://iou-img.oss-cn-shanghai.aliyuncs.com/test/game/nextLife/avatar/9/7/1545200638981.jpg",
+    "headerName": "我",
+    "msgContent": "说吧，打算什么时候还钱"
+  },
+  {
+    "dataType": 0,
+    "audioFilePath": "音频文件url",
+    "headerImage": "http://iou-img.oss-cn-shanghai.aliyuncs.com/test/game/nextLife/avatar/2/52/1545384198723.jpg",
+    "headerName": "张三",
+    "msgContent": "我当时借了你多少钱?麻烦告诉一下吗？"
+  },
+  {
+    "dataType": 2,
+    "audioFilePath": "音频文件url",
+    "headerImage": "http://iou-img.oss-cn-shanghai.aliyuncs.com/test/game/nextLife/avatar/2/52/1545384198723.jpg",
+    "headerName": "调解员",
+    "msgContent": "{\"iouId\": \"b043c06c4dcc451b81f59e730122410d\",\"iouKind\": 1,\"borrowMoney\": \"1***\", \"borrowerName\": \"石耀磊\",\"borrowerAccount\": \"152***\",\"borrowAccountTypeName\": \"支付宝\",\"borrowerMobile\": \"176899*****\",\"borrowerIDCard\": \"身份证\",\"borrowerHomePosition\": \"湖南省长沙市***\",\"lenderName\": \"王佳乐\",\"lenderAccount\": \"602**\", \"lenderAccountTypeName\": \"银行卡\", \"borrowEndTime\": \"2019.01\"}"
+  },
+  {
+    "dataType": 3,
+    "audioFilePath": "音频文件url",
+    "headerImage": "http://iou-img.oss-cn-shanghai.aliyuncs.com/test/game/nextLife/avatar/2/52/1545384198723.jpg",
+    "headerName": "调解员",
+    "msgContent": "签订协议",
+    "buttonType": 0
+  },
+  {
+    "dataType": 3,
+    "audioFilePath": "音频文件url",
+    "headerImage": "http://iou-img.oss-cn-shanghai.aliyuncs.com/test/game/nextLife/avatar/2/52/1545384198723.jpg",
+    "headerName": "调解员",
+    "msgContent": "设定时间，接受申请",
+    "buttonType": 1
+  },
+  {
+    "dataType": 3,
+    "audioFilePath": "音频文件url",
+    "headerImage": "http://iou-img.oss-cn-shanghai.aliyuncs.com/test/game/nextLife/avatar/2/52/1545384198723.jpg",
+    "headerName": "调解员",
+    "msgContent": "不怕惩罚，接受申请",
+    "buttonType": 2
+  },
+  {
+    "dataType": 3,
+    "audioFilePath": "音频文件url",
+    "headerImage": "http://iou-img.oss-cn-shanghai.aliyuncs.com/test/game/nextLife/avatar/2/52/1545384198723.jpg",
+    "headerName": "调解员",
+    "msgContent": "设置还款时间",
+    "buttonType": 3
+  }
+]
