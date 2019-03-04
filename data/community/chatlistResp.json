@@ -67,9 +67,25 @@
   },
   {
     "dataType": 3,
-    "audioFilePath": "音频文件url",
+    "audioFilePath": "https://gitee.com/AFinalStone/HM-Game/raw/dev/library/src/main/res/raw/game_appointment_success.ogg",
     "headerImage": "http://iou-img.oss-cn-shanghai.aliyuncs.com/test/game/nextLife/avatar/2/52/1545384198723.jpg",
     "headerName": "调解员",
+    "msgContent": "设置还款时间",
+    "buttonType": 3
+  },
+  {
+    "dataType": 1,
+    "audioFilePath": "https://gitee.com/AFinalStone/HM-Game/raw/dev/library/src/main/res/raw/game_appointment_success.ogg",
+    "headerImage": "http://iou-img.oss-cn-shanghai.aliyuncs.com/test/game/nextLife/avatar/2/52/1545384198723.jpg",
+    "headerName": "张三",
+    "msgContent": "设置还款时间",
+    "buttonType": 3
+  },
+  {
+    "dataType": 1,
+    "audioFilePath": "https://gitee.com/AFinalStone/HM-Game/raw/dev/library/src/main/res/raw/game_partner_success.ogg",
+    "headerImage": "http://iou-img.oss-cn-shanghai.aliyuncs.com/test/game/nextLife/avatar/2/52/1545384198723.jpg",
+    "headerName": "我",
     "msgContent": "设置还款时间",
     "buttonType": 3
   }
