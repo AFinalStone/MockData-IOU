@@ -2,7 +2,11 @@
 
 ###登陆模块
 
-1、登陆接口：<POST方式>
+1、获取当前允许的登陆方式，手机登录和微信登陆的入口可以通过此接口进行控制：
+
+/api/iou/user/v1/recordAndControl
+
+2、登陆接口：<POST方式>
 
 /api/iou/user/v1/mobileLogin
 
@@ -12,3 +16,5 @@
 1、获取消息列表：<GET方式>
 
 /api/message/messageCenter/v1/getMessages
+
+

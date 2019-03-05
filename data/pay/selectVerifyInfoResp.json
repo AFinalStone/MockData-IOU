@@ -1,0 +1,14 @@
+{
+  "bankInfoResp": {
+    "isBinded": 0,
+    "bankName": null,
+    "bankCard": null,
+    "bankPhone": null,
+    "bankCardType": null
+  },
+  "customerInfoResp": {
+    "isRealNamed": 1,
+    "name": "石要磊",
+    "sex": 1
+  }
+}

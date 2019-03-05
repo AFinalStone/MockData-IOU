@@ -1,0 +1,44 @@
+{
+  "debtNoteRespList": [{
+    "autoId": 1726,
+    "ifAddStar": 1,
+    "ifHaveImg": 1,
+    "locationInfo": "",
+    "type": 1,
+    "debtTime": "2018-11-09 15:05:49",
+    "createTime": "2018-11-09 15:05:49",
+    "content": "[{\"contentType\":0,\"text\":\" “来而不往非礼也”“人有德于我，虽小不可忘也”，这是乡土中国礼尚往来的朴素观念，而亲戚之前的走动很多时候也是这些人情债在牵动。\",\"textType\":0,\"imageType\":0},{\"src\":\"http:\\/\\/iou-test.oss-cn-shanghai.aliyuncs.com\\/img\\/27\\/2018\\/09\\/20180903204533903.jpg\",\"contentType\":0,\"width\":\"299.500000\",\"height\":\"196.500000\",\"textType\":0,\"imageType\":1},{\"contentType\":0,\"text\":\"礼尚往来成为人们相互之间的一种交往方式，婚丧嫁娶、添丁增口、上梁搬家……寻常日子里的每一次起伏。亲朋好友都会相聚一堂，推杯换盏中，品味的不是酒肉，而是难以磨灭的人情。\\n正是在温情脉脉的人情往来中，人们进行着情感传递，构建稳固的社会关系，进而满足日常的互助需求。\",\"textType\":0,\"imageType\":0},{\"src\":\"http:\\/\\/iou-test.oss-cn-shanghai.aliyuncs.com\\/img\\/27\\/2018\\/09\\/20180903204534904.jpg\",\"contentType\":0,\"width\":\"375.000000\",\"height\":\"248.000000\",\"textType\":0,\"imageType\":0},{\"contentType\":0,\"text\":\"---用“记债本”，从这里开始记录下你的礼金来往，不忘记每一份人情债！\",\"textType\":0,\"imageType\":0}]",
+    "coverImg": "http://iou-test.oss-cn-shanghai.aliyuncs.com/img/27/2018/10/201810161611561748.jpg"
+  }, {
+    "autoId": 1727,
+    "ifAddStar": 1,
+    "ifHaveImg": 1,
+    "locationInfo": "",
+    "type": 1,
+    "debtTime": "2018-11-09 15:05:49",
+    "createTime": "2018-11-09 15:05:49",
+    "content": "[{\"contentType\":0,\"text\":\"感谢生命中的每个人\",\"textType\":1,\"imageType\":0},{\"contentType\":0,\"text\":\"生命中对我们有所帮助的人或事，都变成了一个又一个有温度的“人情债”，刻在我们心中。我们希望可以记住这些生命中的“美好”，希望改日可以回馈这些帮助自己的人。\",\"textType\":0,\"imageType\":0},{\"src\":\"http:\\/\\/iou-test.oss-cn-shanghai.aliyuncs.com\\/img\\/27\\/2018\\/09\\/20180903210440912.jpg\",\"contentType\":0,\"width\":\"235.000000\",\"height\":\"147.500000\",\"textType\":0,\"imageType\":1},{\"contentType\":0,\"text\":\"有时人情债更像是一种投资，是一种需要维护的人脉关系，成为我们人生及事业上的一块垫脚石。\\n每欠下一笔人情债，并给与给予回报和感谢，下次更容易求助一个有一天遇到大忙需要人帮时，对方才会更加积极。\",\"textType\":0,\"imageType\":0},{\"src\":\"http:\\/\\/iou-test.oss-cn-shanghai.aliyuncs.com\\/img\\/27\\/2018\\/09\\/20180903210441913.jpg\",\"contentType\":0,\"width\":\"375.000000\",\"height\":\"243.500000\",\"textType\":0,\"imageType\":0},{\"contentType\":0,\"text\":\"每放出一个人情债，你就收获了一个友谊，建立一定的人际关系，情感银行里也就将多了一笔存款。\\n---用“记债本”，从这里开始记录下人情债，让他们感受你有温度的人脉！\",\"textType\":0,\"imageType\":0}]",
+    "coverImg": "http://iou-test.oss-cn-shanghai.aliyuncs.com/img/27/2018/10/201810161607281745.jpg"
+  }, {
+    "autoId": 1728,
+    "ifAddStar": 0,
+    "ifHaveImg": 1,
+    "locationInfo": "",
+    "type": 3,
+    "debtTime": "2018-11-09 15:05:49",
+    "createTime": "2018-11-09 15:05:49",
+    "content": "[{\"src\":\"http:\\/\\/iou-test.oss-cn-shanghai.aliyuncs.com\\/img\\/27\\/2018\\/09\\/20180903205631908.jpg\",\"contentType\":0,\"width\":\"750.000000\",\"height\":\"498.000000\",\"textType\":0,\"imageType\":1},{\"contentType\":0,\"text\":\"钱，很多人嘴上喊着是罪恶，而又处处离不开。感情是一份信任，更需要“守住信任”不辜负信任。\\n中国人喜欢讲人情，不好意思把利益放在桌面上谈。与其让利益把亲情沾染地面目全非，倒不如，二者泾渭分明，互不干涉。亲情的归亲情，利益的归利益，这样才是给予彼此最大的保护。\",\"textType\":0,\"imageType\":0},{\"src\":\"http:\\/\\/iou-test.oss-cn-shanghai.aliyuncs.com\\/img\\/27\\/2018\\/09\\/20180903205632909.jpg\",\"contentType\":0,\"width\":\"750.000000\",\"height\":\"498.000000\",\"textType\":0,\"imageType\":0},{\"contentType\":0,\"text\":\"---用“记债本” 从这里开始记录下每一笔金钱债，越早还越好。\",\"textType\":0,\"imageType\":0}]",
+    "coverImg": "http://iou-test.oss-cn-shanghai.aliyuncs.com/img/27/2018/10/201810161611231747.jpg"
+  }, {
+    "autoId": 1729,
+    "ifAddStar": 0,
+    "ifHaveImg": 1,
+    "locationInfo": "",
+    "type": 2,
+    "debtTime": "2018-11-09 15:05:49",
+    "createTime": "2018-11-09 15:05:49",
+    "content": "[{\"contentType\":0,\"text\":\"亲情债，是世间最难还的债。\",\"textType\":1,\"imageType\":0},{\"contentType\":0,\"text\":\"人生之中，有些账一旦欠下，就再也没有机会偿还，深深的遗憾就会成为埋藏在心中的永远的痛。\\n世界上的每一个人，都不是一个孤单的存在，在生活中也许你扮演者很多个角色。\",\"textType\":0,\"imageType\":0},{\"src\":\"http:\\/\\/iou-test.oss-cn-shanghai.aliyuncs.com\\/img\\/27\\/2018\\/09\\/20180903210250910.jpg\",\"contentType\":0,\"width\":\"740.000000\",\"height\":\"478.000000\",\"textType\":0,\"imageType\":1},{\"contentType\":0,\"text\":\"作为儿子，我们应当赡养父母，尽到孝敬和陪伴老人的责任。\\n作为父亲，我们应当照顾好孩子，尽到一个父亲的教育和养育的责任。\\n作为夫妻，我们应当尊重对方，尽到对对方的保护、关心和忠诚的责任。\\n作为兄弟姐妹，我们有空应当多联系，手足情深，有困难要相互扶持。\",\"textType\":0,\"imageType\":0},{\"src\":\"http:\\/\\/iou-test.oss-cn-shanghai.aliyuncs.com\\/img\\/27\\/2018\\/09\\/20180903210250911.jpg\",\"contentType\":0,\"width\":\"750.000000\",\"height\":\"537.000000\",\"textType\":0,\"imageType\":0},{\"contentType\":0,\"text\":\"不知不觉我们就欠下了太多的亲情债， 对于家人我们心存感激，更希望给他们最好的感情与报答。\\n---用“记债本”，从这里开始记录下每一段温情回忆，不错过家人的一点一滴！\",\"textType\":0,\"imageType\":0}]",
+    "coverImg": "http://iou-test.oss-cn-shanghai.aliyuncs.com/img/27/2018/10/201810161608041746.jpg"
+  }],
+  "lastPullDate": "2019-03-05 18:47:03"
+}

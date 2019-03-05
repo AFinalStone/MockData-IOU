@@ -8,6 +8,12 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var communityRouter = require('./routes/community');
 var messageRouter = require('./routes/message');
+var adActivityRouter = require('./routes/adActivity');
+var cacheRouter = require('./routes/cache');
+var debtRouter = require('./routes/debt');
+var payRouter = require('./routes/pay');
+var noticeRouter = require('./routes/notice');
+var labelRouter = require('./routes/label');
 
 var app = express();
 
@@ -25,6 +31,12 @@ app.use('/', indexRouter);
 app.use('/api/iou/user', usersRouter);
 app.use('/api/iou/community', communityRouter);
 app.use('/api/message/', messageRouter);
+app.use('/api/adActivity/', adActivityRouter);
+app.use('/api/iou/front', cacheRouter);
+app.use('/api/iou/debt', debtRouter);
+app.use('/pay', payRouter);
+app.use('/api/iou/notice', noticeRouter);
+app.use('/api/iou/label', labelRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

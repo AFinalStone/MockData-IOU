@@ -1,0 +1,21 @@
+[{
+  "beginTime": "2018-11-07 01:00:00",
+  "endTime": "2019-03-07 00:00:00",
+  "width": 350.0,
+  "height": 70.0,
+  "linkUrl": "hmiou://m.54jietiao.com/webview/fullscreen?showtitlebar=false&url=http%3A%2F%2F192.168.1.217%2Fapph5%2FappPage%2Ffunimg-ps.html",
+  "url": "https://iou-test.oss-cn-shanghai.aliyuncs.com/imageForAd/20190125/20190125181452",
+  "adPosition": "banner004",
+  "backColor": "#292D5A",
+  "wordColor": "#FFFFFF"
+}, {
+  "beginTime": "2018-12-05 00:00:00",
+  "endTime": "2019-04-18 00:00:00",
+  "width": 800.0,
+  "height": 160.0,
+  "linkUrl": "hmiou://m.54jietiao.com/game_credit_life/index",
+  "url": "https://iou-test.oss-cn-shanghai.aliyuncs.com/imageForAd/20190125/20190125181513",
+  "adPosition": "banner004",
+  "backColor": "#0A4F66",
+  "wordColor": "#FFFFFF"
+}]
