@@ -46,6 +46,46 @@ router.post('/v2/moneyV2/createIOUMoneyDraft', function (req, res, next) {
     res.json(baseResopnse)
 })
 
+/** 更新吕约借条草稿缓存 */
+router.post('/v2/moneyV2/updateIOUMoneyDraft', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/cache/updateIOUMoneyDraftResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    console.log(json)
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 使吕约借条进入待确认状态 */
+router.post('/v2/moneyV2/inner/confirm', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/cache/moneyV2ConfirmResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    console.log(json)
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 吕约借条意向筹备4/5 H5页面调用的接口 */
+router.get('/v2/moneyV2/inner/deleteToInclude', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/cache/deleteToIncludeResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    console.log(json)
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 吕约借条意向筹备4/5 H5页面调用的接口 */
+router.get('/v2/moneyV2/inner/waitConfirmInfo', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/cache/waitConfirmInfoResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    console.log(json)
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
 function BaseResponse(object) {
     this.retCode = 0;
     this.retMsg = "请求结果成功";

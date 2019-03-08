@@ -13,7 +13,7 @@ router.all('*', function (req, res, next) {
 
 
 /** 获取启动页广告 */
-router.get('/v1/getPaySign', function (req, res, next) {
+router.post('/v1/getPaySign', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/consumer/getPaySignResp.json');
     var json = fs.readFileSync(file, 'utf-8')
     console.log(json)

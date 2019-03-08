@@ -37,7 +37,7 @@ router.get('/iou/v1/ad/getByPosition', function (req, res, next) {
 })
 
 /** 获取签章套餐列表 */
-router.get('/iou/package/v2/packageList', function (req, res, next) {
+router.post('/iou/package/v2/packageList', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/pay/packageListResp.json');
     var json = fs.readFileSync(file, 'utf-8')
     console.log(json)

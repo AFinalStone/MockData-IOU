@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no">
+		<title>附属条约</title>
+		<link rel="stylesheet" href="./css/media.css" />
+		<link rel="stylesheet" href="css/moreTreaty.css" />
+	</head>
+	<body>
+
+		<div class="main-body">
+
+			<div class="one">
+				<p>条约1: 借款人（债务人）承诺，如果到期未向出借人（债权人）归还本金与利息，到时愿承担债权人追讨借款所支付的律师费、交通费等其他相关费用。</p>
+			</div>
+
+
+			<div class="two">
+				<p>条约2: 约定债务纠纷交由“吕约借条”唯一指定法院或者仲裁机构管辖。（杭州互联网法院/杭州西湖区地方法院/广州仲裁委/衢州仲裁委，平台自动分流管辖。）</p>
+			</div>
+
+			<div class="three">
+				<p>条约3: 经过双方实名授权/确认的《吕约借款合同》，本协议的签订、履行、终止、解决均适用于中华人民共和国的法律。</p>
+			</div>
+
+			<div class="four">
+				<p>提醒：在本协议中双方约定的手机号码、电子邮箱等联系方式，均为各方之间纠纷相关材料有效送达地址。前述地址适用于本协议成立时起至债务全部履行完毕时止，通知方的短信、电子邮件等发送原约定邮箱或手机号码，发出即视为送达。借款人同意第三方合作伙伴（条管家/公证处/E律师联盟律所/仲裁/法院）提供上述合同信息时无需告知本人。
+				</p>
+			</div>
+
+			<button class="know-button" id="bottom-button">完全同意</button>
+
+
+			<!-- 点击展示弹窗 -->
+			<!-- <div class="win-top" id="win-top">
+				<div class="win-detial">
+					<h3 class="tip-title">温馨提示</h3>
+					<p class="tip-content">退出之前，请确认《附属条约》里的内容，是否同意？</p>
+					<div class="bottom-agree">
+						<p class="no-agree" id="noAgree" onclick="backPage(false)">不同意</p>
+						<p class="agree" id="agree" onclick="backPage(true)">同意</p>
+					</div>
+				</div>
+			</div> -->
+
+
+		</div>
+
+
+
+
+
+
+	</body>
+	<script type="text/javascript" src="./js/public.js"></script>
+	<script>
+		
+		/*点击我知道了，调用APP端关闭当前界面事件*/
+		document.getElementById('bottom-button').onclick = function() {
+			let headerInfo = JSON.parse(window.HMApplication.getHeaders());
+			let version = headerInfo.appVer;
+			let verFlag = Version(version, '1.9.9.9');
+			if(verFlag){
+				var data = {
+					'eventName': 'treatyTwo',
+					'result': 1
+				}
+				window.HMApplication.notifyEvent(JSON.stringify(data));
+				window.HMApplication.closeWebView();
+			}else {
+				window.HMApplication.closeWebView();
+			}
+		}
+
+
+		/**
+		 * 返回上一个界面
+// 		 */
+// 		function backPage(flag) {
+// 			document.getElementById('win-top').style.display = 'none';
+// 			if (flag) {
+// 				
+// 			} else {
+// 				var data = {
+// 					'eventName': 'treatyOne',
+// 					'result': 2
+// 				}
+// 				window.HMApplication.notifyEvent(JSON.stringify(data));
+// 			}
+// 			window.HMApplication.closeWebView();
+// 		}
+
+		
+		
+	</script>
+</html>

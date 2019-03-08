@@ -31,14 +31,15 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/api/iou/user', usersRouter);
 app.use('/api/iou/community', communityRouter);
-app.use('/api/message/', messageRouter);
-app.use('/api/adActivity/', adActivityRouter);
+app.use('/api/message', messageRouter);
+app.use('/api/adActivity', adActivityRouter);
 app.use('/api/iou/front', cacheRouter);
 app.use('/api/iou/debt', debtRouter);
 app.use('/pay', payRouter);
 app.use('/api/iou/notice', noticeRouter);
 app.use('/api/iou/label', labelRouter);
 app.use('/api/iou/consumer', consumerRouter);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -97,6 +97,26 @@ router.get('/v1/checkRealNameAuth', function (req, res, next) {
     res.json(baseResopnse)
 })
 
+/** 校验签约密码 */
+router.get('/v1/checkTransPswd', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/user/checkSignPsdResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    console.log(json)
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 获取签章列表 */
+router.get('/v2/selectCustomerSealList', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/user/selectCustomerSealListResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    console.log(json)
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
 function BaseResponse(object) {
     this.retCode = 0;
     this.retMsg = "请求结果成功";

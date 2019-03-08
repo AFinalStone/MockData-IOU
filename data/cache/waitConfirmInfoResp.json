@@ -1,0 +1,26 @@
+{
+  "justiceId": "190308140346000322",
+  "iouId": "fa92ecff115846799c1aef19cb3deabb",
+  "amount": 666,
+  "borrowerName": "石要磊",
+  "iouStatus": 12,
+  "loanerName": "候进云",
+  "returnWay": 1,
+  "nextReturnDate": "2019-03-09 00:00:00",
+  "leftTime": 35771,
+  "endDateTime": "2019-03-08 23:59:59",
+  "signRole": 1,
+  "exContractShowType": 1,
+  "confirmLogRespList": [{
+    "name": "石要磊",
+    "status": 1,
+    "signDateTime": "2019-03-08 14:03:47"
+  }, {
+    "name": "候进云",
+    "status": 0,
+    "signDateTime": null
+  }],
+  "pdfUrl": null,
+  "signatoryName": "候先生",
+  "signatoryMobile": "12345678900"
+}
