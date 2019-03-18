@@ -2,7 +2,7 @@
 
 ### 启动项目
 
-$ DEBUG=myapp:* npm start
+DEBUG=myapp:* npm start
 
 ###登陆模块
 

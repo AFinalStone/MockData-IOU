@@ -46,6 +46,26 @@ router.post('/iou/package/v2/packageList', function (req, res, next) {
     res.json(resopnse)
 })
 
+/** 绑定银行卡 */
+router.post('/welfare/v1/bindBankCardInfo', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/pay/bindBankCardInfoRespcle.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    console.log(json)
+    var data = JSON.parse(json);
+    var resopnse = new BaseResponse(data);
+    res.json(resopnse)
+})
+
+/** 校验银行卡四要素 */
+router.post('/welfare/v1/checkFourElementVerify', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/pay/checkFourElementVerifyRespcle.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    console.log(json)
+    var data = JSON.parse(json);
+    var resopnse = new BaseResponse(data);
+    res.json(resopnse)
+})
+
 function BaseResponse(object) {
     this.retCode = 0;
     this.retMsg = "请求结果成功";

@@ -117,6 +117,26 @@ router.get('/v2/selectCustomerSealList', function (req, res, next) {
     res.json(baseResopnse)
 })
 
+/** 判断用户是否实名认证 */
+router.get('/v2/canRealNameAuth', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/user/canRealNameAuthResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    console.log(json)
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 埋点统计即将实名认证的用户是上班族还是学生 */
+router.get('/v1/setCareerType', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/user/setCareerTypeResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    console.log(json)
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
 function BaseResponse(object) {
     this.retCode = 0;
     this.retMsg = "请求结果成功";

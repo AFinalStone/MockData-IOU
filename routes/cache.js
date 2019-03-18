@@ -86,6 +86,16 @@ router.get('/v2/moneyV2/inner/waitConfirmInfo', function (req, res, next) {
     res.json(baseResopnse)
 })
 
+/** 获取吕约合同2.0的详情信息 */
+router.get('/v2/moneyV2/inner/detail', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/cache/moneyV2InnerDetailResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    console.log(json)
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
 function BaseResponse(object) {
     this.retCode = 0;
     this.retMsg = "请求结果成功";
