@@ -4,12 +4,12 @@
   "idCard": "410421199004034576",
   "idCardStartTime": "2014.04.25",
   "idCardEndTime": "2034.04.25",
-  "personalInfo": 1,
-  "idCardPhoto": 1,
-  "facePhoto": 1,
-  "underAge": 0,
-  "writeSign": 2,
+  "personalInfo": true,
+  "idCardPhoto": true,
+  "facePhoto": true,
+  "underAge": false,
+  "writeSign": true,
   "attestTime": "2018.12.23",
   "avatarUrl": "",
-  "overDue": 1
+  "overDue": true
 }
