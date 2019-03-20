@@ -137,6 +137,26 @@ router.get('/v1/setCareerType', function (req, res, next) {
     res.json(baseResopnse)
 })
 
+/** 获取用户的实名信息详情 */
+router.get('/v1/getRealNameInfo', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/user/getRealNameInfoResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    console.log(json)
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 修改支付宝账号 */
+router.get('/v1/updateAliPay', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/user/updateAliPayResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    console.log(json)
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
 function BaseResponse(object) {
     this.retCode = 0;
     this.retMsg = "请求结果成功";
