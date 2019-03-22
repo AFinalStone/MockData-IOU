@@ -16,7 +16,7 @@ router.all('*', function (req, res, next) {
 router.get('/v1/selectNotice', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/notice/selectNoticeResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var data = JSON.parse(json);
     var resopnse = new BaseResponse(data);
     res.json(resopnse)

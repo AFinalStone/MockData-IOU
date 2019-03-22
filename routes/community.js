@@ -15,7 +15,7 @@ router.all('*', function (req, res, next) {
 router.get('/mylist', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/community/mylistResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var data = JSON.parse(json);
     var resp = new BaseResponse(data);
     res.json(resp)
@@ -25,7 +25,7 @@ router.get('/mylist', function (req, res, next) {
 router.get('/history', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/community/hitorylistResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var data = JSON.parse(json);
     var resp = new BaseResponse(data);
     res.json(resp)
@@ -35,7 +35,7 @@ router.get('/history', function (req, res, next) {
 router.get('/chatlist', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/community/chatlistResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var data = JSON.parse(json);
     var resp = new BaseResponse(data);
     res.json(resp)

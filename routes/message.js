@@ -20,7 +20,7 @@ router.get('/', function (req, res, next) {
 router.get('/messageCenter/v1/getMessages', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/message/getMessageResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var data = JSON.parse(json);
     var resp = new BaseResponse(data);
     res.json(resp)

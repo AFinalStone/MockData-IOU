@@ -16,11 +16,31 @@ router.all('*', function (req, res, next) {
 router.post('/v1/getPaySign', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/consumer/getPaySignResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var data = JSON.parse(json);
     var resopnse = new BaseResponse(data);
     res.json(resopnse)
 })
+
+
+/** 获取被占用签章的数量 */
+router.get('/v1/getLockedSignNum', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/consumer/getLockedSignNumResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    var data = JSON.parse(json);
+    var resopnse = new BaseResponse(data);
+    res.json(resopnse)
+})
+
+/** 获取被占用签章的列表 */
+router.get('/v1/getLockedSignList', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/consumer/getLockedSignListResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    var data = JSON.parse(json);
+    var resopnse = new BaseResponse(data);
+    res.json(resopnse)
+})
+
 
 function BaseResponse(object) {
     this.retCode = 0;

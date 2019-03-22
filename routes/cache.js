@@ -20,7 +20,7 @@ router.get('/', function (req, res, next) {
 router.post('/v2/getIOUCacheV2', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/cache/getIOUCacheV2Resp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -30,7 +30,7 @@ router.post('/v2/getIOUCacheV2', function (req, res, next) {
 router.post('/v1/getIOUCommentCache', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/cache/getIOUCommentCacheResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -40,7 +40,7 @@ router.post('/v1/getIOUCommentCache', function (req, res, next) {
 router.post('/v2/moneyV2/createIOUMoneyDraft', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/cache/createIOUMoneyDraftResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -50,7 +50,7 @@ router.post('/v2/moneyV2/createIOUMoneyDraft', function (req, res, next) {
 router.post('/v2/moneyV2/updateIOUMoneyDraft', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/cache/updateIOUMoneyDraftResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -60,7 +60,7 @@ router.post('/v2/moneyV2/updateIOUMoneyDraft', function (req, res, next) {
 router.post('/v2/moneyV2/inner/confirm', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/cache/moneyV2ConfirmResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -70,7 +70,7 @@ router.post('/v2/moneyV2/inner/confirm', function (req, res, next) {
 router.get('/v2/moneyV2/inner/deleteToInclude', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/cache/deleteToIncludeResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -80,7 +80,7 @@ router.get('/v2/moneyV2/inner/deleteToInclude', function (req, res, next) {
 router.get('/v2/moneyV2/inner/waitConfirmInfo', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/cache/waitConfirmInfoResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -90,7 +90,7 @@ router.get('/v2/moneyV2/inner/waitConfirmInfo', function (req, res, next) {
 router.get('/v2/moneyV2/inner/detail', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/cache/moneyV2InnerDetailResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)

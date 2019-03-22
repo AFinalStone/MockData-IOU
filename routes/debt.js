@@ -15,7 +15,7 @@ router.all('*', function (req, res, next) {
 router.post('/v1/getDebtNote', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/debt/getDebtNoteResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var data = JSON.parse(json);
     var resopnse = new BaseResponse(data);
     res.json(resopnse)

@@ -20,7 +20,6 @@ router.get('/', function (req, res, next) {
 router.get('/verify/v1/selectVerifyInfo', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/pay/selectVerifyInfoResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
     var data = JSON.parse(json);
     var resopnse = new BaseResponse(data);
     res.json(resopnse)
@@ -30,7 +29,6 @@ router.get('/verify/v1/selectVerifyInfo', function (req, res, next) {
 router.get('/iou/v1/ad/getByPosition', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/pay/getByPositionResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
     var data = JSON.parse(json);
     var resopnse = new BaseResponse(data);
     res.json(resopnse)
@@ -40,7 +38,6 @@ router.get('/iou/v1/ad/getByPosition', function (req, res, next) {
 router.post('/iou/package/v2/packageList', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/pay/packageListResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
     var data = JSON.parse(json);
     var resopnse = new BaseResponse(data);
     res.json(resopnse)
@@ -50,7 +47,6 @@ router.post('/iou/package/v2/packageList', function (req, res, next) {
 router.post('/welfare/v1/bindBankCardInfo', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/pay/bindBankCardInfoRespcle.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
     var data = JSON.parse(json);
     var resopnse = new BaseResponse(data);
     res.json(resopnse)
@@ -60,10 +56,28 @@ router.post('/welfare/v1/bindBankCardInfo', function (req, res, next) {
 router.post('/welfare/v1/checkFourElementVerify', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/pay/checkFourElementVerifyRespcle.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
     var data = JSON.parse(json);
     var resopnse = new BaseResponse(data);
     res.json(resopnse)
+})
+
+/** 获取次卡充值消费历史记录 */
+router.get('/iou/v1/getHistory', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/pay/getHistoryResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    var data = JSON.parse(json);
+    var resopnse = new BaseResponse(data);
+    res.json(resopnse)
+})
+
+
+/** 获取签章套餐列表 */
+router.get('/iou/package/v1/searchPackageList', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/pay/searchPackageListResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
 })
 
 function BaseResponse(object) {

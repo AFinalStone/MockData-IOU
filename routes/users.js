@@ -20,7 +20,7 @@ router.get('/', function (req, res, next) {
 router.get('/v1/recordAndControl', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/recordAndControlResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var data = JSON.parse(json);
     var resopnse = new BaseResponse(data);
     res.json(resopnse)
@@ -31,7 +31,7 @@ router.get('/v1/recordAndControl', function (req, res, next) {
 router.get('/v1/checkVersion', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/checkVersionResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var data = JSON.parse(json);
     var resopnse = new BaseResponse(data);
     res.json(resopnse)
@@ -41,7 +41,7 @@ router.get('/v1/checkVersion', function (req, res, next) {
 router.get('/v1/isAccountExist', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/isAccountExistResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -51,7 +51,7 @@ router.get('/v1/isAccountExist', function (req, res, next) {
 router.post('/v1/mobileLogin', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/mobileLoginResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -61,7 +61,7 @@ router.post('/v1/mobileLogin', function (req, res, next) {
 router.get('/v1/userCenter', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/userCenterResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -71,7 +71,7 @@ router.get('/v1/userCenter', function (req, res, next) {
 router.get('/v1/selectAlertShowByType', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/selectAlertShowByTypeResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -81,7 +81,7 @@ router.get('/v1/selectAlertShowByType', function (req, res, next) {
 router.get('/v1/getFirstDebtStatus', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/getFirstDebtStatusResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -91,7 +91,7 @@ router.get('/v1/getFirstDebtStatus', function (req, res, next) {
 router.get('/v1/checkRealNameAuth', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/checkRealNameAuthResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -101,7 +101,7 @@ router.get('/v1/checkRealNameAuth', function (req, res, next) {
 router.get('/v1/checkTransPswd', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/checkSignPsdResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -111,7 +111,7 @@ router.get('/v1/checkTransPswd', function (req, res, next) {
 router.get('/v2/selectCustomerSealList', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/selectCustomerSealListResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -121,7 +121,7 @@ router.get('/v2/selectCustomerSealList', function (req, res, next) {
 router.get('/v2/canRealNameAuth', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/canRealNameAuthResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -131,7 +131,7 @@ router.get('/v2/canRealNameAuth', function (req, res, next) {
 router.get('/v1/setCareerType', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/setCareerTypeResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -141,7 +141,7 @@ router.get('/v1/setCareerType', function (req, res, next) {
 router.get('/v1/getRealNameInfo', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/getRealNameInfoResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -151,7 +151,7 @@ router.get('/v1/getRealNameInfo', function (req, res, next) {
 router.get('/v1/addOrUpdateAliPay', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/updateAliPayResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -161,7 +161,7 @@ router.get('/v1/addOrUpdateAliPay', function (req, res, next) {
 router.get('/v1/getPersonalCenter', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/getPersonalCenterResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -171,7 +171,7 @@ router.get('/v1/getPersonalCenter', function (req, res, next) {
 router.get('/v1/getBankCardInfo', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/getBankCardInfoResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
@@ -181,7 +181,7 @@ router.get('/v1/getBankCardInfo', function (req, res, next) {
 router.get('/v1/getMailboxInfo', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/getMailboxInfoResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)

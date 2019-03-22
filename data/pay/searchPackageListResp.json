@@ -1,0 +1,37 @@
+{
+  "packageRespList": [{
+    "packageId": 3,
+    "content": "金卡",
+    "originalPrice": 5000,
+    "goodsId": "",
+    "actualPrice": 4000,
+    "concessions": "5次=40元",
+    "rechargeSign": 5
+  }, {
+    "packageId": 1,
+    "content": "银卡",
+    "originalPrice": 2000,
+    "goodsId": "",
+    "actualPrice": 1800,
+    "concessions": "2次=18元",
+    "rechargeSign": 2
+  }, {
+    "packageId": 2,
+    "content": "普卡",
+    "originalPrice": 1000,
+    "goodsId": "",
+    "actualPrice": 1000,
+    "concessions": "1次=10元",
+    "rechargeSign": 1
+  }],
+  "signUnitPrice": 1000,
+  "firstPackage": {
+    "packageId": 4,
+    "content": "体验卡",
+    "originalPrice": 500,
+    "goodsId": "",
+    "actualPrice": 1000,
+    "concessions": null,
+    "rechargeSign": 1
+  }
+}

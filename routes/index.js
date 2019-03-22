@@ -21,7 +21,7 @@ router.get('/', function (req, res, next) {
 router.get('/test', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/mobileLoginResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     res.json(JSON.parse(json))
 })
 

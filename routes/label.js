@@ -15,7 +15,7 @@ router.all('*', function (req, res, next) {
 router.get('/v1/checkUserLabel', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/label/checkUserLabelResp.json');
     var json = fs.readFileSync(file, 'utf-8')
-    console.log(json)
+
     var userModule = JSON.parse(json);
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
