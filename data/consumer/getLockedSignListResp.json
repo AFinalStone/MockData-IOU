@@ -6,14 +6,14 @@
     "genDateStr": "2019.03.20 16:26",
     "endDateStr": "2019.03.20 23:59",
     "signNum": 2,
-    "lockedStatus": 1
+    "lockedStatus": 3
   }, {
     "content": "借条 ¥556",
     "justiceId": "190321100443000385",
     "genDateStr": "2019.03.21 10:06",
     "endDateStr": "2019.03.21 23:59",
     "signNum": 2,
-    "lockedStatus": 1
+    "lockedStatus": 2
   }, {
     "content": "借条 ¥4558",
     "justiceId": "190321101554000385",

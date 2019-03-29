@@ -33,7 +33,7 @@ router.get('/v1/getLockedSignNum', function (req, res, next) {
 })
 
 /** 获取被占用签章的列表 */
-router.get('/v1/getLockedSignList', function (req, res, next) {
+router.post('/v1/getLockedSignList', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/consumer/getLockedSignListResp.json');
     var json = fs.readFileSync(file, 'utf-8')
     var data = JSON.parse(json);

@@ -5,7 +5,7 @@
   },
   "bankCardResp": {
     "bankCardNo": "12345678900",
-    "hasBinded": true
+    "hasBinded": false
   },
   "mailInfoResp": {
     "hasMailBinded": true,
