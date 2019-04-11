@@ -16,9 +16,49 @@ router.get('/', function (req, res, next) {
     res.send('respond with a resource');
 });
 
-/** 获取消息列表 */
-router.get('/messageCenter/v1/getMessages', function (req, res, next) {
+/** 获取条管家消息列表 */
+router.post('/messageCenter/v1/getMessages', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/message/getMessageResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var data = JSON.parse(json);
+    var resp = new BaseResponse(data);
+    res.json(resp)
+})
+
+/** 获取合同消息列表 */
+router.post('/messageCenter/v1/getContractMsgList', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/message/getContractMsgListResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var data = JSON.parse(json);
+    var resp = new BaseResponse(data);
+    res.json(resp)
+})
+
+/** 获取待还提醒消息列表 */
+router.post('/messageCenter/v1/getRemindBackList', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/message/getRemindBackListResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var data = JSON.parse(json);
+    var resp = new BaseResponse(data);
+    res.json(resp)
+})
+
+/** 获取疑似合同列表 */
+router.post('/messageCenter/v1/getSimilarityContractList', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/message/getSimilarityContractListResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var data = JSON.parse(json);
+    var resp = new BaseResponse(data);
+    res.json(resp)
+})
+
+/** 获取通讯录 */
+router.post('/messageCenter/v1/getFriendList', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/message/getFriendListResp.json');
     var json = fs.readFileSync(file, 'utf-8')
 
     var data = JSON.parse(json);

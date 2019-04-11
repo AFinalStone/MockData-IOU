@@ -1,0 +1,30 @@
+[
+  {
+    "reason": "不同意：《用户注册协议》",
+    "reasonId": "0"
+  },
+  {
+    "reason": "不同意：《用户隐私协议》",
+    "reasonId": "1"
+  },
+  {
+    "reason": "不同意：《用户支付协议》",
+    "reasonId": "2"
+  },
+  {
+    "reason": "安全/隐私顾虑",
+    "reasonId": "3"
+  },
+  {
+    "reason": "这是个多余的账户",
+    "reasonId": "4"
+  },
+  {
+    "reason": "我没有注册过这个账号",
+    "reasonId": "5"
+  },
+  {
+    "reason": "不知道怎么使用“电子合同”",
+    "reasonId": "6"
+  }
+]

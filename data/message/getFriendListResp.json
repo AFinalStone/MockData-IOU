@@ -1,0 +1,27 @@
+[
+  {
+    "avatarUrl": "http://192.168.1.107:3000/images/header_01.jpg",
+    "nickName": "coolGirl",
+    "userId": "0"
+  },
+  {
+    "avatarUrl": "http://192.168.1.107:3000/images/header_02.jpg",
+    "nickName": "吴彦祖",
+    "userId": "1"
+  },
+  {
+    "avatarUrl": "http://192.168.1.107:3000/images/header_03.jpg",
+    "nickName": "女神范",
+    "userId": "2"
+  },
+  {
+    "avatarUrl": "http://192.168.1.107:3000/images/header_04.jpg",
+    "nickName": "安安静静",
+    "userId": "3"
+  },
+  {
+    "avatarUrl": "http://192.168.1.107:3000/images/header_04.jpg",
+    "nickName": "你站在外面看风景，你也是别人的风景",
+    "userId": "3"
+  }
+]

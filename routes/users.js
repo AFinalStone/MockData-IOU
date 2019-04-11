@@ -187,6 +187,46 @@ router.get('/v1/getMailboxInfo', function (req, res, next) {
     res.json(baseResopnse)
 })
 
+/** 获取不赞同原因列表 */
+router.get('/v1/getNoAgreeReasonList', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/user/getNoAgreeReasonListResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 提交不赞同的原因 */
+router.get('/v1/submitNoAgreeReason', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/user/submitNoAgreeReasonResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 永久注销 */
+router.post('/v1/foreverUnRegister', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/user/foreverUnRegisterResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 获取永久注销的验证码 */
+router.get('/v1/getCheckCodeForUnRegister', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/user/getCheckCodeForUnRegisterResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
 function BaseResponse(object) {
     this.retCode = 0;
     this.retMsg = "请求结果成功";
