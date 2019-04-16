@@ -1,0 +1,23 @@
+[
+  {
+    "imgUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/contentCollect/20190304/20190304201559",
+    "jumpUrl": "https://www.json.cn/",
+    "sourceBizType": 10,
+    "startTime": "2019-03-05 20:17:11",
+    "title": "植树节活动"
+  },
+  {
+    "imgUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/contentCollect/20190304/20190304201559",
+    "jumpUrl": "https://www.baidu.com/",
+    "sourceBizType": 20,
+    "startTime": "2019-03-08 20:17:11",
+    "title": "百度一下，你就知道"
+  },
+  {
+    "imgUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/contentCollect/20190304/20190304201559",
+    "jumpUrl": "https://www.baidu.com/",
+    "sourceBizType": 30,
+    "startTime": "2019-03-10 20:17:11",
+    "title": "今日头条"
+  }
+]

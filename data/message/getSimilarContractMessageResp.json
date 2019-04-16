@@ -2,21 +2,23 @@
   {
     "title": "借条：¥1,000,000",
     "amount": 1000000,
-    "type": "elec_borrow",
     "loanerName": "张明",
     "borrowerName": "刘莉莉",
-    "repayDateTime": "2018.05.23",
-    "returnWay": "按月归还",
+    "iouKind": 1,
+    "iouStatus": 10,
+    "returnWayDesc": "按月归还",
+    "createTime": "2019-03-04 20:17:11",
     "jumpUrl": "2019-03-04 20:17:11"
   },
   {
     "title": "借条：¥1,000,000",
     "amount": 1000000,
-    "type": "elec_borrow",
     "loanerName": "张明",
     "borrowerName": "刘莉莉",
-    "repayDateTime": "2018.05.23",
-    "returnWay": "按月归还",
+    "iouKind": 1,
+    "iouStatus": 10,
+    "returnWayDesc": "一次性归还",
+    "createTime": "2019-03-04 20:17:11",
     "jumpUrl": "2019-03-04 20:17:11"
   }
 ]

@@ -1,30 +1,30 @@
 [
   {
     "title": "合同创建成功",
-    "time": "星期六 上午 9:00",
     "content": "小希女士，您的合同已创建成功",
-    "contractId": "1",
-    "contractType": "elec_borrow"
+    "createTime": "2019-03-03 20:17:11",
+    "sourceBizType": 0,
+    "jumpUrl": "string"
   },
   {
     "title": "合同签约成功",
-    "time": "星期六 上午 10:00",
     "content": "小希女士，您向小王发送合同已签约完成",
-    "contractId": "1",
-    "contractType": "elec_borrow"
+    "createTime": "2019-03-05 12:17:11",
+    "sourceBizType": 0,
+    "jumpUrl": "string"
   },
   {
     "title": "有新合同待签",
-    "time": "星期六 上午 9:00",
     "content": "小希女士，您有一份新的合同待签署",
-    "contractId": "2",
-    "contractType": "elec_borrow"
+    "createTime": "2019-03-05 12:17:50",
+    "sourceBizType": 0,
+    "jumpUrl": "string"
   },
   {
     "title": "合同签署成功",
-    "time": "星期六 上午 11:00",
     "content": "小希女士，您的合同签署已完成",
-    "contractId": "2",
-    "contractType": "elec_borrow"
+    "createTime": "2019-03-05 12:18:50",
+    "sourceBizType": 0,
+    "jumpUrl": "string"
   }
 ]

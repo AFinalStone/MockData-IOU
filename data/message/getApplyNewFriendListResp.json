@@ -1,0 +1,37 @@
+[
+  {
+    "avatarUrl": "http://192.168.1.107:3000/images/header_05.jpg",
+    "nickName": "AAAAAAAAAAAAAA",
+    "applyMemo": "我是成龙",
+    "status": 0,
+    "applyId": "0"
+  },
+  {
+    "avatarUrl": "http://192.168.1.107:3000/images/header_03.jpg",
+    "nickName": "吴彦祖",
+    "applyMemo": "我是你大学同学",
+    "status": 1,
+    "applyId": "0"
+  },
+  {
+    "avatarUrl": "http://192.168.1.107:3000/images/header_01.jpg",
+    "nickName": "coolGirl",
+    "applyMemo": "快来加入快乐购",
+    "status": 2,
+    "applyId": "0"
+  },
+  {
+    "avatarUrl": "http://192.168.1.107:3000/images/header_04.jpg",
+    "nickName": "BBBBBBBBBBB",
+    "applyMemo": "加个好友呗",
+    "status": 3,
+    "applyId": "0"
+  },
+  {
+    "avatarUrl": "http://192.168.1.107:3000/images/header_02.jpg",
+    "nickName": "辽宁",
+    "applyMemo": "我是成龙",
+    "status": 0,
+    "applyId": "0"
+  }
+]
