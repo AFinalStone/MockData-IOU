@@ -2,5 +2,6 @@
   "contractNumber": 100,
   "waitRepayNumber": 99,
   "similarContractNumber": 3,
-  "butlerMessageNumber": 0
+  "butlerMessageNumber": 0,
+  "friendMessageNumber": 1
 }
