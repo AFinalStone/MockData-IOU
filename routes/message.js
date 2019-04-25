@@ -57,7 +57,7 @@ router.get('/messageCenter/v2/getWaitRepayMessage', function (req, res, next) {
 })
 
 /** 获取疑似合同列表 */
-router.get('/messageCenter/v2/getSimilarContractMessage', function (req, res, next) {
+router.post('/messageCenter/v2/getSimilarContractMessage', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/message/getSimilarContractMessageResp.json');
     var json = fs.readFileSync(file, 'utf-8')
 
