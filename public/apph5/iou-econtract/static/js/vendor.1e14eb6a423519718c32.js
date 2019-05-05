@@ -14374,7 +14374,7 @@ webpackJsonp([0], {
                     f.Authorization = "Basic " + u(m + ":" + g)
                 }
                 if (h.open(t.method.toUpperCase(), o(t.url, t.params, t.paramsSerializer), !0), h.timeout = t.timeout, h[p] = function() {
-                    if (h && (4 === h.readyState || v) && (0 !== h.status || h.responseURL && 0 === h.responseURL.indexOf("file:"))) {
+                    if (h && (4 === h.readyState || v) && (0 !== h.status || h.responseURL && 0 === h.responseURL.indexOf("front:"))) {
                         var n = "getAllResponseHeaders" in h ? s(h.getAllResponseHeaders()) : null,
                             i = {
                                 data: t.responseType && "text" !== t.responseType ? h.response : h.responseText,
