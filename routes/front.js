@@ -17,7 +17,7 @@ router.get('/', function (req, res, next) {
 });
 
 /** 上传图片并添加云存储空间 */
-router.get('/v1/uploadPic/countSize', function (req, res, next) {
+router.post('/v1/uploadPic/countSize', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/front/countSizeResp.json');
     var json = fs.readFileSync(file, 'utf-8')
 
@@ -27,8 +27,28 @@ router.get('/v1/uploadPic/countSize', function (req, res, next) {
 })
 
 /** 创建纸质借条 */
-router.get('/v1/paperBorrow/create', function (req, res, next) {
-    var file = path.join(__dirname, '../', '/data/adActivity/getStartPicsResp.json');
+router.post('/v1/paperBorrow/create', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/front/createPaperBorrowResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var data = JSON.parse(json);
+    var resopnse = new BaseResponse(data);
+    res.json(resopnse)
+})
+
+/** 创建房贷合同 */
+router.post('/v1/fdContract/create', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/front/createFdContractResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var data = JSON.parse(json);
+    var resopnse = new BaseResponse(data);
+    res.json(resopnse)
+})
+
+/** 创建纸质收条 */
+router.post('/v1/paperRecv/create', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/front/createPaperReceiveResp.json');
     var json = fs.readFileSync(file, 'utf-8')
 
     var data = JSON.parse(json);
