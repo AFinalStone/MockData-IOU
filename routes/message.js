@@ -66,6 +66,40 @@ router.post('/messageCenter/v2/getSimilarContractMessage', function (req, res, n
     res.json(resp)
 })
 
+/** 获取支付宝回单合同列表 */
+router.post('/messageCenter/v2/getReceiptMsgCache', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/message/getAliPayMessageResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var data = JSON.parse(json);
+    var resp = new BaseResponse(data);
+    res.json(resp)
+})
+
+/** 获取支付宝回单合同列表 */
+router.post('/messageCenter/v2/getAliPayReceiptInfo', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/message/getAliPayMessageDetailResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var data = JSON.parse(json);
+    var resp = new BaseResponse(data);
+    res.json(resp)
+})
+
+/** 把消息设置为已读 */
+router.post('/messageCenter/v2/makeMsgHaveRead', function (req, res, next) {
+    var data = 0;
+    var resp = new BaseResponse(data);
+    res.json(resp)
+})
+
+/** 把某类消息批量设置为已读 */
+router.post('/messageCenter/v2/makeMsgTypeAllHaveRead', function (req, res, next) {
+    var data = 0;
+    var resp = new BaseResponse(data);
+    res.json(resp)
+})
+
 /** 获取通讯录 */
 router.post('/messageCenter/v1/getFriendList', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/message/getFriendListResp.json');
