@@ -1,29 +1,38 @@
-[
-  {
-    "imgUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/contentCollect/20190304/20190304201559",
-    "jumpUrl": "https://www.json.cn/",
-    "sourceBizType": 40,
-    "startTime": "2019-03-05 20:17:11",
-    "title": "植树节活动"
-  },
-  {
-    "imgUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/contentCollect/20190304/20190304201559",
-    "jumpUrl": "https://www.baidu.com/",
-    "sourceBizType": 10,
-    "startTime": "2019-03-08 20:17:11",
-    "title": "百度一下，你就知道"
-  },
-  {
-    "imgUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/contentCollect/20190304/20190304201559",
-    "jumpUrl": "https://www.baidu.com/",
-    "sourceBizType": 20,
-    "startTime": "2019-03-10 20:17:11",
-    "title": "今日头条"
-  },
-  {
-    "sourceBizType": 100,
-    "startTime": "2019-03-11 20:17:11",
-    "notice": "系统维护",
-    "title": "官方公告"
-  }
-]
+{
+  "lastReqDate": "2019-05-22T05:41:06.732Z",
+  "list": [
+    {
+      "msgId": 0,
+      "type": 0,
+      "imgUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/contentCollect/20190304/20190304201559",
+      "jumpUrl": "https://www.json.cn/",
+      "sourceBizType": 40,
+      "startTime": "2019-03-05 20:17:11",
+      "title": "植树节活动"
+    },
+    {
+      "msgId": 0,
+      "type": 0,
+      "imgUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/contentCollect/20190304/20190304201559",
+      "jumpUrl": "https://www.baidu.com/",
+      "sourceBizType": 10,
+      "startTime": "2019-03-08 20:17:11",
+      "title": "百度一下，你就知道"
+    },
+    {
+      "msgId": 0,
+      "type": 0,
+      "imgUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/contentCollect/20190304/20190304201559",
+      "jumpUrl": "https://www.baidu.com/",
+      "sourceBizType": 20,
+      "startTime": "2019-03-10 20:17:11",
+      "title": "今日头条"
+    },
+    {
+      "sourceBizType": 100,
+      "startTime": "2019-03-11 20:17:11",
+      "notice": "系统维护",
+      "title": "官方公告"
+    }
+  ]
+}

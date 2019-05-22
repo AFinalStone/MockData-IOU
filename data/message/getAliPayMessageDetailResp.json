@@ -1,12 +1,11 @@
 {
-  "status": 3,
-  "contractId": "5756745645",
-  "senderEmail": "602392342@qq.com",
-  "pdfUrl": "https://www.baidu.com",
-  "creatorName": "张先生",
+  "appliyReceiptStatus": 0,
   "createTime": "2019-05-12 12:20:34",
-  "deleteStats": 0,
-  "operatorShowId": "1234353453",
+  "deleted": true,
+  "justiceId": "string",
+  "operatorDate": "2019-05-13 08:33:21",
   "operatorName": "李隆基",
-  "operatorDeleteTime": "2019-05-13 08:33:21"
+  "operatorShowId": "1234353453",
+  "pdfUrl": "https://www.baidu.com",
+  "senderMail": "602392342@qq.com"
 }

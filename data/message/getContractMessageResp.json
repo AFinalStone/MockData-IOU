@@ -1,1 +1,13 @@
-[{"title":"您的合同即将过期","content":"石先生：您向李雪梅发送的借款合同将在5个小时后过期，请及时提醒出借人签署","jumpUrl":"hmiou://m.54jietiao.com/iou/elec_borrow_detail_v2?justiceId=190423101820000429&iouId=94c3f92f75404193b523633435776327&iou_id=94c3f92f75404193b523633435776327","createTime":"2019-04-24 21:01:15"}]
+{
+  "lastReqDate": "2019-05-22T05:41:06.744Z",
+  "list": [
+    {
+      "msgId": 0,
+      "type": 0,
+      "title": "您的合同即将过期",
+      "content": "石先生：您向李雪梅发送的借款合同将在5个小时后过期，请及时提醒出借人签署",
+      "jumpUrl": "hmiou://m.54jietiao.com/iou/elec_borrow_detail_v2?justiceId=190423101820000429&iouId=94c3f92f75404193b523633435776327&iou_id=94c3f92f75404193b523633435776327",
+      "createTime": "2019-04-24 21:01:15"
+    }
+  ]
+}

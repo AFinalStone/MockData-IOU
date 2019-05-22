@@ -1,20 +1,27 @@
-[
-  {
-    "createTime": "2019-03-04 20:17:11",
-    "iouKind": 11,
-    "jumpUrl": "2019-03-04 20:17:11",
-    "repayDateTime": "2019-03-04 20:17:11",
-    "title": "您借给蔡艳红的借款，今天为最后还款日，请关注还款信息",
-    "repayThing": "2000元",
-    "thingsType": 1
-  },
-  {
-    "createTime": "2019-03-04 20:17:11",
-    "iouKind": 11,
-    "jumpUrl": "2019-03-04 20:17:11",
-    "repayDateTime": "2019-03-04 20:17:11",
-    "title": "您向蔡燕红的借款，已逾期",
-    "repayThing": "书包",
-    "thingsType": 0
-  }
-]
+{
+  "lastReqDate": "2019-05-22T05:41:06.772Z",
+  "list": [
+    {
+      "msgId": 0,
+      "type": 0,
+      "createTime": "2019-03-04 20:17:11",
+      "iouKind": 11,
+      "jumpUrl": "2019-03-04 20:17:11",
+      "repayDateTime": "2019-03-04 20:17:11",
+      "title": "您借给蔡艳红的借款，今天为最后还款日，请关注还款信息",
+      "repayThing": "2000元",
+      "thingsType": 1
+    },
+    {
+      "msgId": 0,
+      "type": 0,
+      "createTime": "2019-03-04 20:17:11",
+      "iouKind": 11,
+      "jumpUrl": "2019-03-04 20:17:11",
+      "repayDateTime": "2019-03-04 20:17:11",
+      "title": "您向蔡燕红的借款，已逾期",
+      "repayThing": "书包",
+      "thingsType": 0
+    }
+  ]
+}

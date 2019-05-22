@@ -1,9 +1,9 @@
 {
-  "page": 1,
-  "size": 2,
-  "total": 12,
+  "lastReqDate": "2019-05-22T05:41:06.761Z",
   "list": [
     {
+      "msgId": 0,
+      "type": 0,
       "title": "借条：¥600",
       "iouKind": 11,
       "jumpUrl": "hmiou://m.54jietiao.com/iou/elec_borrow_detail_v2?justiceId=190308135634000322&iouId=11a117f2137942b291efcdb0c38f8cec&iou_id=11a117f2137942b291efcdb0c38f8cec",
@@ -16,6 +16,8 @@
       "createTime": "2019-03-08 13:32:25"
     },
     {
+      "msgId": 0,
+      "type": 0,
       "title": "借条：¥600",
       "iouKind": 11,
       "jumpUrl": "hmiou://m.54jietiao.com/iou/elec_borrow_detail_v2?justiceId=190308111254000322&iouId=46934b3188964c1481282d9f4f7613ad&iou_id=46934b3188964c1481282d9f4f7613ad",
@@ -28,6 +30,8 @@
       "createTime": "2019-03-08 11:13:45"
     },
     {
+      "msgId": 0,
+      "type": 0,
       "title": "借条：¥10,000",
       "iouKind": 11,
       "jumpUrl": "hmiou://m.54jietiao.com/iou/elec_borrow_detail_v2?justiceId=190306153942000117&iouId=c6ef0f121ec84b74a7bc8976dae4999b&iou_id=c6ef0f121ec84b74a7bc8976dae4999b",
@@ -40,6 +44,8 @@
       "createTime": "2019-03-06 15:39:43"
     },
     {
+      "msgId": 0,
+      "type": 0,
       "title": "借条：¥666",
       "iouKind": 11,
       "jumpUrl": "hmiou://m.54jietiao.com/iou/elec_borrow_detail_v2?justiceId=190308140346000322&iouId=fa92ecff115846799c1aef19cb3deabb&iou_id=fa92ecff115846799c1aef19cb3deabb",
@@ -52,6 +58,8 @@
       "createTime": "2019-03-08 14:05:14"
     },
     {
+      "msgId": 0,
+      "type": 0,
       "title": "借条：¥600",
       "iouKind": 11,
       "jumpUrl": "hmiou://m.54jietiao.com/iou/elec_borrow_detail_v2?justiceId=190308135634000322&iouId=11a117f2137942b291efcdb0c38f8cec&iou_id=11a117f2137942b291efcdb0c38f8cec",
@@ -64,6 +72,8 @@
       "createTime": "2019-03-08 13:32:25"
     },
     {
+      "msgId": 0,
+      "type": 0,
       "title": "借条：¥666",
       "iouKind": 11,
       "jumpUrl": "hmiou://m.54jietiao.com/iou/elec_borrow_detail_v2?justiceId=190308140346000322&iouId=fa92ecff115846799c1aef19cb3deabb&iou_id=fa92ecff115846799c1aef19cb3deabb",
@@ -76,6 +86,8 @@
       "createTime": "2019-03-08 14:05:14"
     },
     {
+      "msgId": 0,
+      "type": 0,
       "title": "借条：¥600",
       "iouKind": 11,
       "jumpUrl": "hmiou://m.54jietiao.com/iou/elec_borrow_detail_v2?justiceId=190308135634000322&iouId=11a117f2137942b291efcdb0c38f8cec&iou_id=11a117f2137942b291efcdb0c38f8cec",

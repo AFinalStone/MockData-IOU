@@ -56,6 +56,45 @@ router.post('/v1/paperRecv/create', function (req, res, next) {
     res.json(resopnse)
 })
 
+/** 删除电子凭证 */
+router.get('/v1/exEvidence/del', function (req, res, next) {
+    var data = 0;
+    var resopnse = new BaseResponse(data);
+    res.json(resopnse)
+})
+
+/** 重命名电子凭证 */
+router.post('/v1/exEvidence/rename', function (req, res, next) {
+    var data = 0;
+    var resopnse = new BaseResponse(data);
+    res.json(resopnse)
+})
+
+/** 分享电子凭证 */
+router.post('/v2/iouAndExtShare', function (req, res, next) {
+    var data = "https://www.baidu.com";
+    var resopnse = new BaseResponse(data);
+    res.json(resopnse)
+})
+
+/** 获取分享的电子凭证详情 */
+router.get('/v2/getShareInfo', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/front/getShareInfoResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    var data = JSON.parse(json);
+    var resopnse = new BaseResponse(data);
+    res.json(resopnse)
+})
+
+/** 获取借条宽展信息详情 */
+router.get('/v1/exContract/getDetails', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/front/getElecExDetailResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    var data = JSON.parse(json);
+    var resopnse = new BaseResponse(data);
+    res.json(resopnse)
+})
+
 function BaseResponse(object) {
     this.retCode = 0;
     this.retMsg = "请求结果成功";

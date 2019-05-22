@@ -1,0 +1,37 @@
+{
+  "lastReqDate": "2019-05-22 18:45:33",
+  "list": [
+    {
+      "msgId": "0",
+      "type": "1",
+      "title": "恭喜：关联成功 ",
+      "content": "关联合同：2938488588343421 ",
+      "jumpUrl": "hmiou://m.54jietiao.com/iou/elec_borrow_detail_v2?justiceId=190423101820000429&iouId=94c3f92f75404193b523633435776327&iou_id=94c3f92f75404193b523633435776327",
+      "createTime": "2019-04-24 21:01:15"
+    },
+    {
+      "msgId": "1",
+      "type": "1",
+      "title": "恭喜：关联成功 ",
+      "content": "关联合同：2938488588343421 ",
+      "jumpUrl": "hmiou://m.54jietiao.com/iou/elec_borrow_detail_v2?justiceId=190423101820000429&iouId=94c3f92f75404193b523633435776327&iou_id=94c3f92f75404193b523633435776327",
+      "createTime": "2019-04-24 21:01:55"
+    },
+    {
+      "msgId": "2",
+      "type": "1",
+      "title": "恭喜：关联成功 ",
+      "content": "关联合同：2938488588343421 ",
+      "jumpUrl": "hmiou://m.54jietiao.com/iou/elec_borrow_detail_v2?justiceId=190423101820000429&iouId=94c3f92f75404193b523633435776327&iou_id=94c3f92f75404193b523633435776327",
+      "createTime": "2019-04-26 21:01:15"
+    },
+    {
+      "msgId": "3",
+      "type": "1",
+      "title": "恭喜：关联成功 ",
+      "content": "关联合同：2938488588343421 ",
+      "jumpUrl": "hmiou://m.54jietiao.com/iou/elec_borrow_detail_v2?justiceId=190423101820000429&iouId=94c3f92f75404193b523633435776327&iou_id=94c3f92f75404193b523633435776327",
+      "createTime": "2019-04-28 12:01:15"
+    }
+  ]
+}
