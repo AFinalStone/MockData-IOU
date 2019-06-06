@@ -1,8 +1,8 @@
 {
-  "appliyReceiptStatus": 0,
+  "appliyReceiptStatus": 1,
   "createTime": "2019-05-12 12:20:34",
-  "deleted": true,
-  "justiceId": "string",
+  "deleted": false,
+  "justiceId": "456456456",
   "operatorDate": "2019-05-13 08:33:21",
   "operatorName": "李隆基",
   "operatorShowId": "1234353453",

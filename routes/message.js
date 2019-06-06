@@ -27,7 +27,7 @@ router.get('/messageCenter/v2/unReadMessages', function (req, res, next) {
 })
 
 /** 获取条管家消息列表 */
-router.get('/messageCenter/v2/getButlerMsgCache', function (req, res, next) {
+router.post('/messageCenter/v2/getButlerMsgCache', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/message/getButlerMessageResp.json');
     var json = fs.readFileSync(file, 'utf-8')
 
@@ -37,7 +37,7 @@ router.get('/messageCenter/v2/getButlerMsgCache', function (req, res, next) {
 })
 
 /** 获取合同消息列表 */
-router.get('/messageCenter/v2/getContractMsgCache', function (req, res, next) {
+router.post('/messageCenter/v2/getContractMsgCache', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/message/getContractMessageResp.json');
     var json = fs.readFileSync(file, 'utf-8')
 
@@ -47,7 +47,7 @@ router.get('/messageCenter/v2/getContractMsgCache', function (req, res, next) {
 })
 
 /** 获取待还提醒消息列表 */
-router.get('/messageCenter/v2/getWaitRepayMsgCache', function (req, res, next) {
+router.post('/messageCenter/v2/getWaitRepayMsgCache', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/message/getWaitRepayMessageResp.json');
     var json = fs.readFileSync(file, 'utf-8')
 
@@ -57,7 +57,7 @@ router.get('/messageCenter/v2/getWaitRepayMsgCache', function (req, res, next) {
 })
 
 /** 获取疑似合同列表 */
-router.post('/messageCenter/v2/getSimilarContractMsgCach', function (req, res, next) {
+router.post('/messageCenter/v2/getSimilarContractMsgCache', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/message/getSimilarContractMessageResp.json');
     var json = fs.readFileSync(file, 'utf-8')
 
@@ -77,7 +77,7 @@ router.post('/messageCenter/v2/getReceiptMsgCache', function (req, res, next) {
 })
 
 /** 获取支付宝回单详情 */
-router.post('/messageCenter/v2/getAliPayReceiptInfo', function (req, res, next) {
+router.post('/messageCenter/v2/getAlipayReceiptInfo', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/message/getAliPayMessageDetailResp.json');
     var json = fs.readFileSync(file, 'utf-8')
 

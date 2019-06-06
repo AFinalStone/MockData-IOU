@@ -95,6 +95,13 @@ router.get('/v1/exContract/getDetails', function (req, res, next) {
     res.json(resopnse)
 })
 
+/** 批量收录疑似合同 */
+router.post('/v2/moneyV2/includeBatch', function (req, res, next) {
+    var data = 0;
+    var resopnse = new BaseResponse(data);
+    res.json(resopnse)
+})
+
 function BaseResponse(object) {
     this.retCode = 0;
     this.retMsg = "请求结果成功";
