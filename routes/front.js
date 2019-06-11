@@ -95,9 +95,45 @@ router.get('/v1/exContract/getDetails', function (req, res, next) {
     res.json(resopnse)
 })
 
+/** 获取获取吕约借条的额外信息详情 */
+router.get('/v1/exDetails', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/front/exDetailsResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    var data = JSON.parse(json);
+    var resopnse = new BaseResponse(data);
+    res.json(resopnse)
+})
+
+/** 获取凭证详情 */
+router.get('/v1/exEvidence/check', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/front/exDetailsCheckResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    var data = JSON.parse(json);
+    var resopnse = new BaseResponse(data);
+    res.json(resopnse)
+})
+
 /** 批量收录疑似合同 */
 router.post('/v2/moneyV2/includeBatch', function (req, res, next) {
     var data = 0;
+    var resopnse = new BaseResponse(data);
+    res.json(resopnse)
+})
+
+/** 获取借条缓存 */
+router.post('/v3/getIOUCacheV3', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/front/getIOUCacheV3.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    var data = JSON.parse(json);
+    var resopnse = new BaseResponse(data);
+    res.json(resopnse)
+})
+
+/** 获取借条评论缓存 */
+router.post('/v1/getIOUCommentCache', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/front/getIOUCommentCache.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    var data = JSON.parse(json);
     var resopnse = new BaseResponse(data);
     res.json(resopnse)
 })

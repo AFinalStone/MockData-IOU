@@ -27,7 +27,7 @@ router.post('/v2/getIOUCacheV2', function (req, res, next) {
 })
 
 /** 获取借条评论缓存 */
-router.post('/v1/getIOUCommentCache', function (req, res, next) {
+router.post('/v1/getIOUCommentCache.json', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/cache/getIOUCommentCacheResp.json');
     var json = fs.readFileSync(file, 'utf-8')
 

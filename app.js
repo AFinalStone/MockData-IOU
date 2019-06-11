@@ -16,6 +16,7 @@ var noticeRouter = require('./routes/notice');
 var labelRouter = require('./routes/label');
 var consumerRouter = require('./routes/consumer');
 var frontRouter = require('./routes/front');
+var arbRouter = require('./routes/arb');
 
 var app = express();
 
@@ -41,6 +42,7 @@ app.use('/api/iou/notice', noticeRouter);
 app.use('/api/iou/label', labelRouter);
 app.use('/api/iou/consumer', consumerRouter);
 app.use('/api/iou/front', frontRouter);
+app.use('/api/arb', arbRouter);
 
 
 // catch 404 and forward to error handler
