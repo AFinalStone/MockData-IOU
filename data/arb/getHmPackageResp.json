@@ -1,0 +1,21 @@
+{
+  "packageId": 41,
+  "pageRoute": 1,
+  "actualAmountStr": "0.01元",
+  "name": null,
+  "comment": "*仲裁成功以上费用由对方承担",
+  "expireSeconds": 1800,
+  "discountStr": "",
+  "showAmountStr": "¥0.01",
+  "itemList": [{
+    "order": 1,
+    "name": "取证费用",
+    "amountStr": "¥ 10.00",
+    "comment": null
+  }, {
+    "order": 2,
+    "name": "审理费用",
+    "amountStr": "¥ 20.00",
+    "comment": null
+  }]
+}

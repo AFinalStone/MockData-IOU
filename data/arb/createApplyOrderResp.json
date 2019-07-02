@@ -1,0 +1,31 @@
+{
+  "arbPackageResp": {
+    "actualAmountStr": "string",
+    "comment": "string",
+    "discountStr": "string",
+    "expireSeconds": 10,
+    "itemList": [
+      {
+        "amountStr": "string",
+        "comment": "string",
+        "name": "string",
+        "order": 0
+      }
+    ],
+    "name": "string",
+    "packageId": 0,
+    "pageRoute": 0,
+    "showAmountStr": "string"
+  },
+  "orderId": "string",
+  "wxPayAppParamResp": {
+    "appid": "string",
+    "noncestr": "string",
+    "orderId": "string",
+    "package": "string",
+    "partnerid": "string",
+    "prepayid": "string",
+    "sign": "string",
+    "timestamp": 0
+  }
+}

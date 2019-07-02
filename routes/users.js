@@ -227,6 +227,53 @@ router.get('/v1/getCheckCodeForUnRegister', function (req, res, next) {
     res.json(baseResopnse)
 })
 
+/** 身份证正面识别 */
+router.get('/v1/ocrIdcardFront', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/user/ocrIdcardFrontResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 身份证反面识别 */
+router.get('/v1/ocrIdcardBack', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/user/ocrIdcardFrontResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+/** 人脸识别 */
+router.post('/v1/confirmOcrIdcardInfo', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/user/confirmOcrIdcardInfoResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+/** 人脸识别 */
+router.post('/v2/livenessIdnumberVerification', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/user/livenessIdnumberVerificationResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+/** 上传活体校验视频 */
+router.post('/v1/savePrivacyFileNew', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/user/savePrivacyFileNewResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
 function BaseResponse(object) {
     this.retCode = 0;
     this.retMsg = "请求结果成功";
