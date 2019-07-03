@@ -246,7 +246,8 @@ router.get('/v1/ocrIdcardBack', function (req, res, next) {
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
 })
-/** 人脸识别 */
+
+/** 确认提交身份证正反面OCR信息 */
 router.post('/v1/confirmOcrIdcardInfo', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/confirmOcrIdcardInfoResp.json');
     var json = fs.readFileSync(file, 'utf-8')
@@ -255,7 +256,7 @@ router.post('/v1/confirmOcrIdcardInfo', function (req, res, next) {
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
 })
-/** 人脸识别 */
+/** 公安对比，确认用户实名认证信息是否真实 */
 router.post('/v2/livenessIdnumberVerification', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/livenessIdnumberVerificationResp.json');
     var json = fs.readFileSync(file, 'utf-8')
