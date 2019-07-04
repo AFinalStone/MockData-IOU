@@ -1,0 +1,7 @@
+{
+  "canRetry": true,
+  "reasonList": [
+    "数据异常",
+    "请重新尝试"
+  ]
+}

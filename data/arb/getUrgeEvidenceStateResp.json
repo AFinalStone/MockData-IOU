@@ -1,4 +1,10 @@
-{
-  "arbCost": 7700,
-  "arbMoney": 300
-}
+[
+  {
+    "description": "7700",
+    "urgeEvidenceType": 2
+  },
+  {
+    "description": "98988",
+    "urgeEvidenceType": 3
+  }
+]

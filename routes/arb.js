@@ -124,6 +124,25 @@ router.get('/v1/getArbApplyDoc', function (req, res, next) {
     var baseResopnse = new BaseResponse(userModule);
     res.json(baseResopnse)
 })
+/** 获取已经生成的仲裁申请书内容 */
+router.get('/v1/getSubmitBackFailReason', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/arb/getSubmitBackFailReasonResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 获取已经生成的仲裁申请书内容 */
+router.post('/v1/resubmit', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/arb/resubmitResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
 
 
 function BaseResponse(object) {
