@@ -1,0 +1,52 @@
+[
+  {
+    "avatarUrl": "http://192.168.1.107:3000/images/header_01.jpg",
+    "friendId": 0,
+    "nickName": "张菲菲"
+  },
+  {
+    "avatarUrl": "http://192.168.1.107:3000/images/header_02.jpg",
+    "friendId": 1,
+    "nickName": "李东龙"
+  },
+  {
+    "avatarUrl": "http://192.168.1.107:3000/images/header_03.jpg",
+    "friendId": 2,
+    "nickName": "飞龙一"
+  },
+  {
+    "avatarUrl": "http://192.168.1.107:3000/images/header_02.jpg",
+    "friendId": 3,
+    "nickName": "李东龙"
+  },
+  {
+    "avatarUrl": "http://192.168.1.107:3000/images/header_03.jpg",
+    "friendId": 4,
+    "nickName": "飞龙一"
+  },
+  {
+    "avatarUrl": "http://192.168.1.107:3000/images/header_02.jpg",
+    "friendId": 5,
+    "nickName": "李东龙"
+  },
+  {
+    "avatarUrl": "http://192.168.1.107:3000/images/header_03.jpg",
+    "friendId": 6,
+    "nickName": "飞龙一"
+  },
+  {
+    "avatarUrl": "http://192.168.1.107:3000/images/header_03.jpg",
+    "friendId": 7,
+    "nickName": "飞龙一"
+  },
+  {
+    "avatarUrl": "http://192.168.1.107:3000/images/header_02.jpg",
+    "friendId": 8,
+    "nickName": "李东龙"
+  },
+  {
+    "avatarUrl": "http://192.168.1.107:3000/images/header_03.jpg",
+    "friendId": 9,
+    "nickName": "飞龙一"
+  }
+]

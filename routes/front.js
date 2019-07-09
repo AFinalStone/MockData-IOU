@@ -138,6 +138,16 @@ router.post('/v1/getIOUCommentCache', function (req, res, next) {
     res.json(resopnse)
 })
 
+/** 获取隐藏的合同列表 */
+router.get('/v1/iou/getHideIOU', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/front/getHideIOUResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
 function BaseResponse(object) {
     this.retCode = 0;
     this.retMsg = "请求结果成功";

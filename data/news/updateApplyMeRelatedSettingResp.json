@@ -1,0 +1,7 @@
+{
+  "ifCreateImToken": true,
+  "imTokenResp": {
+    "imAccId": "string",
+    "imToken": "string"
+  }
+}
