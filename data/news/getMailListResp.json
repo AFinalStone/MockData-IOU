@@ -1,0 +1,37 @@
+{
+  "lastReqDate": "2019-07-15 19:31:37",
+  "mailListRespList": [{
+    "avatarUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/18/2019/04/201904221530515190.jpg?1555918232000",
+    "nickName": "云之雅",
+    "stageName": "",
+    "friendId": 1425,
+    "showId": "1000443",
+    "imAccId": "d1000443",
+    "lastUpdateTime": "2019-07-15 19:31:37"
+  }, {
+    "avatarUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/18/2019/04/201904191353575173.jpg?1555653220000",
+    "nickName": "云飞",
+    "stageName": "候进云",
+    "friendId": 1362,
+    "showId": "1000380",
+    "imAccId": "d1000380",
+    "lastUpdateTime": "2019-07-15 19:18:39"
+  }, {
+    "avatarUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/18/2019/01/201901291631333994.jpg?1548750688000",
+    "nickName": "小管家",
+    "stageName": "",
+    "friendId": 1099,
+    "showId": "1000117",
+    "imAccId": "d1000117",
+    "lastUpdateTime": "2019-07-15 10:58:46"
+  }, {
+    "avatarUrl": "",
+    "nickName": "开发环境176修改名字",
+    "stageName": "176",
+    "friendId": 1431,
+    "showId": "1000449",
+    "imAccId": "d1000449",
+    "lastUpdateTime": "2019-04-28 09:26:02"
+  }],
+  "delList": null
+}

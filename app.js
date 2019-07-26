@@ -19,6 +19,7 @@ var frontRouter = require('./routes/front');
 var arbRouter = require('./routes/arb');
 var fsRouter = require('./routes/fs');
 var newsRouter = require('./routes/news');
+var couponRouter = require('./routes/coupon');
 
 var app = express();
 
@@ -47,6 +48,7 @@ app.use('/api/iou/front', frontRouter);
 app.use('/api/arb', arbRouter);
 app.use('/api/fs', fsRouter);
 app.use('/api/news', newsRouter);
+app.use('/api/coupon', couponRouter);
 
 
 // catch 404 and forward to error handler

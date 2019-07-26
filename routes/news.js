@@ -46,6 +46,55 @@ router.post('/friend/v1/updateApplyMeRelatedSetting', function (req, res, next) 
     res.json(resp)
 });
 
+/**IM会话前进行好友状态校验**/
+router.get('/friend/v1/checkForIMChat', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/news/checkForIMChatResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var data = JSON.parse(json);
+    var resp = new BaseResponse(data);
+    res.json(resp)
+});
+
+/**获取好友通讯录**/
+router.post('/friend/v1/getMailList', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/news/getMailListResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var data = JSON.parse(json);
+    var resp = new BaseResponse(data);
+    res.json(resp)
+});
+
+/**刷新IMToken**/
+router.get('/friend/v1/getOrRefreshToken', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/news/getOrRefreshTokenResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var data = JSON.parse(json);
+    var resp = new BaseResponse(data);
+    res.json(resp)
+});
+/**获取好友资料信息**/
+router.post('/friend/v2/getUserInfoById', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/news/getUserInfoByIdResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var data = JSON.parse(json);
+    var resp = new BaseResponse(data);
+    res.json(resp)
+});
+
+/**获取等待确认的好友申请列表**/
+router.post('/friend/v2/getApplyRecordList', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/news/getApplyRecordListResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var data = JSON.parse(json);
+    var resp = new BaseResponse(data);
+    res.json(resp)
+});
+
 
 function BaseResponse(object) {
     this.retCode = 0;

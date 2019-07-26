@@ -1,0 +1,72 @@
+{
+  "lastReqDate": "2019-07-22 19:55:09",
+  "applyRecordRespList": [
+    {
+      "applyId": 1,
+      "friendId": 2,
+      "applyMsg": "云飞费",
+      "stageName": "",
+      "avatarUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/18/2019/07/201907091853366563.jpg?1562669614000",
+      "nickName": "漠醉老大哥拥有广泛共同的人生价值",
+      "status": 3,
+      "applyTime": "2019-07-22 18:52:48",
+      "sex": 1
+    },
+    {
+      "applyId": 3,
+      "friendId": 4,
+      "applyMsg": "我是云之雅",
+      "stageName": "",
+      "avatarUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/18/2019/04/201904221530515190.jpg?1555918232000",
+      "nickName": "云之雅",
+      "status": 1,
+      "applyTime": "2019-07-12 19:29:08",
+      "sex": 1
+    },
+    {
+      "applyId": 5,
+      "friendId": 6,
+      "applyMsg": "多少钱",
+      "stageName": "",
+      "avatarUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/18/2019/07/201907091853366563.jpg?1562669614000",
+      "nickName": "漠醉老大哥拥有广泛共同的人生价值",
+      "status": 3,
+      "applyTime": "2019-07-22 18:52:48",
+      "sex": 1
+    },
+    {
+      "applyId": 7,
+      "friendId": 8,
+      "applyMsg": "雅",
+      "stageName": "",
+      "avatarUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/18/2019/04/201904221530515190.jpg?1555918232000",
+      "nickName": "名侦探柯南",
+      "status": 1,
+      "applyTime": "2019-07-12 19:29:08",
+      "sex": 1
+    },
+    {
+      "applyId": 9,
+      "friendId": 10,
+      "applyMsg": "xixi",
+      "stageName": "",
+      "avatarUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/18/2019/07/201907091853366563.jpg?1562669614000",
+      "nickName": "洗鞋你打啊嘎嘎",
+      "status": 3,
+      "applyTime": "2019-07-22 18:52:48",
+      "sex": 1
+    },
+    {
+      "applyId": 11,
+      "friendId": 12,
+      "applyMsg": "我是云之雅",
+      "stageName": "",
+      "avatarUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/18/2019/04/201904221530515190.jpg?1555918232000",
+      "nickName": "阿基米德尼昂昂昂昂昂",
+      "status": 1,
+      "applyTime": "2019-07-12 19:29:08",
+      "sex": 1
+    }
+  ],
+  "delList": null
+}

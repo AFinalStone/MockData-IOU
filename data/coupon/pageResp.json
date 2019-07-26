@@ -1,0 +1,111 @@
+{
+  "getToday": true,
+  "remainDays": 7,
+  "couponCount": 12,
+  "modules": [
+    {
+      "mainTitle": "百元金券",
+      "subTitle": "可省600多元",
+      "picUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/NB0033/14/2019/07/2019072415322228.png",
+      "position": 1
+    },
+    {
+      "mainTitle": "优惠领不停",
+      "subTitle": "每月按时发放",
+      "picUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/NB0033/14/2019/07/2019072415330636.png",
+      "position": 2
+    },
+    {
+      "mainTitle": "债本文字",
+      "subTitle": "0-2000字",
+      "picUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/NB0033/14/2019/07/2019072415354855.png",
+      "position": 3
+    },
+    {
+      "mainTitle": "债本图片",
+      "subTitle": "0-9张",
+      "picUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/NB0033/14/2019/07/2019072415334949.png",
+      "position": 4
+    },
+    {
+      "mainTitle": "合同数量",
+      "subTitle": "不限数量",
+      "picUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/NB0033/14/2019/07/2019072415341530.png",
+      "position": 5
+    },
+    {
+      "mainTitle": "借款额度",
+      "subTitle": "100元起",
+      "picUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/NB0033/14/2019/07/2019072415343965.png",
+      "position": 6
+    }
+  ],
+  "coupons": [
+    {
+      "couponId": 39,
+      "couponName": "￥ 2",
+      "couponDesc": "满10远减2元",
+      "status": 3
+    },
+    {
+      "couponId": 40,
+      "couponName": "￥ 2",
+      "couponDesc": "满10远减2元",
+      "status": 1
+    },
+    {
+      "couponId": 41,
+      "couponName": "￥ 2",
+      "couponDesc": "满10远减2元",
+      "status": 1
+    },
+    {
+      "couponId": 42,
+      "couponName": "￥ 2",
+      "couponDesc": "满10元减2元",
+      "status": 1
+    },
+    {
+      "couponId": 43,
+      "couponName": "￥ 4",
+      "couponDesc": "满20元减4元",
+      "status": 1
+    },
+    {
+      "couponId": 44,
+      "couponName": "￥ 4",
+      "couponDesc": "满20元减4元",
+      "status": 1
+    },
+    {
+      "couponId": 45,
+      "couponName": "￥ 4",
+      "couponDesc": "满20元减4元",
+      "status": 1
+    },
+    {
+      "couponId": 46,
+      "couponName": "￥ 4",
+      "couponDesc": "满20元减4元",
+      "status": 1
+    },
+    {
+      "couponId": 47,
+      "couponName": "￥ 6",
+      "couponDesc": "满30元减6元",
+      "status": 1
+    },
+    {
+      "couponId": 48,
+      "couponName": "￥ 6",
+      "couponDesc": "满30元减6元",
+      "status": 1
+    },
+    {
+      "couponId": 49,
+      "couponName": "￥ 10",
+      "couponDesc": "满50元减10元",
+      "status": 1
+    }
+  ]
+}
