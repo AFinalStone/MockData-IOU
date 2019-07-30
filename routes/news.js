@@ -94,6 +94,15 @@ router.post('/friend/v2/getApplyRecordList', function (req, res, next) {
     var resp = new BaseResponse(data);
     res.json(resp)
 });
+/**获取等待确认的好友申请列表**/
+router.get('/friend/v1/delApplyRecord', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/news/delApplyRecordResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var data = JSON.parse(json);
+    var resp = new BaseResponse(data);
+    res.json(resp)
+});
 
 
 function BaseResponse(object) {

@@ -20,6 +20,7 @@ var arbRouter = require('./routes/arb');
 var fsRouter = require('./routes/fs');
 var newsRouter = require('./routes/news');
 var couponRouter = require('./routes/coupon');
+var baseRouter = require('./routes/base');
 
 var app = express();
 
@@ -49,6 +50,7 @@ app.use('/api/arb', arbRouter);
 app.use('/api/fs', fsRouter);
 app.use('/api/news', newsRouter);
 app.use('/api/coupon', couponRouter);
+app.use('/api/base', baseRouter);
 
 
 // catch 404 and forward to error handler

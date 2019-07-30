@@ -47,6 +47,36 @@ router.get('/v1/isAccountExist', function (req, res, next) {
     res.json(baseResopnse)
 })
 
+/** 判断微信是否已经绑定过手机号了 */
+router.get('/v1/isWXExist', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/user/isWXExistResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 判断微信是否已经绑定过手机号了 */
+router.get('/v1/wxLogin', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/user/mobileLoginResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 判断手机号是否已经注册 */
+router.get('/v1/isBindWX', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/user/isBindWXResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
 /** 登陆 */
 router.post('/v1/mobileLogin', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/user/mobileLoginResp.json');
