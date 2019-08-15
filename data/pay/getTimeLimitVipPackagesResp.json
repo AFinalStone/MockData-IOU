@@ -1,0 +1,22 @@
+[{
+  "actualPrice": 10000,
+  "rechargeSign": 1000,
+  "content": "年卡",
+  "packageCode": "t11_02_365_001",
+  "outOfDay": 365,
+  "yuanPer": "0.1"
+}, {
+  "actualPrice": 6000,
+  "rechargeSign": 150,
+  "content": "半年卡",
+  "packageCode": "t11_02_180_001",
+  "outOfDay": 180,
+  "yuanPer": "0.4"
+}, {
+  "actualPrice": 4000,
+  "rechargeSign": 40,
+  "content": "季卡",
+  "packageCode": "t11_02_090_001",
+  "outOfDay": 90,
+  "yuanPer": "1"
+}]

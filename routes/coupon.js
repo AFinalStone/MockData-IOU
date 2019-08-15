@@ -36,6 +36,16 @@ router.get('/v1/member/page', function (req, res, next) {
     res.json(resopnse)
 })
 
+/** 获取优惠券列表 */
+router.get('/v1/user/coupons', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/coupon/couponsResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var data = JSON.parse(json);
+    var resopnse = new BaseResponse(data);
+    res.json(resopnse)
+})
+
 function BaseResponse(object) {
     this.retCode = 0;
     this.retMsg = "请求结果成功";

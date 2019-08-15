@@ -1,0 +1,15 @@
+{
+  "hasValidCard": true,
+  "useInfo": {
+    "content": "季卡",
+    "allCount": 40,
+    "surplusCount": 34,
+    "usedCount": 6,
+    "beginTime": "2019-08-08 15:50:16",
+    "endTime": "2019-11-07 00:00:00",
+    "outOfDay": 90,
+    "yuanPer": "0.001",
+    "actualPrice": 4,
+    "actualPriceY": "0.04"
+  }
+}

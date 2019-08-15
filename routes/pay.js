@@ -80,6 +80,24 @@ router.get('/iou/package/v1/searchPackageList', function (req, res, next) {
     res.json(baseResopnse)
 })
 
+/** 获取用户是否有吕约收条贵宾卡 */
+router.get('/iou/signOrder/v1/getVipCardUseInfo', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/pay/getVipCardUserInfoResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 获取用户是否有吕约收条贵宾卡 */
+router.post('/iou/package/v1/sign/getTimeLimitVipPackages', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/pay/getTimeLimitVipPackagesResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
 function BaseResponse(object) {
     this.retCode = 0;
     this.retMsg = "请求结果成功";

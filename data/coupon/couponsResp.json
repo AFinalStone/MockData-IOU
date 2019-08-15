@@ -1,0 +1,9 @@
+[{
+  "couponId": 103,
+  "couponName": "满10元可用",
+  "level": 1,
+  "reachPrice": 1000,
+  "reducedPrice": 200,
+  "createTime": "2019-08-01 10:04:21",
+  "expiryDate": "2019-08-31 23:59:59"
+}]

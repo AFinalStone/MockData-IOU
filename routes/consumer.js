@@ -41,6 +41,24 @@ router.post('/v1/getLockedSignList', function (req, res, next) {
     res.json(resopnse)
 })
 
+/** 获取签章数量 */
+router.get('/v1/getSignNum', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/consumer/getSignNumResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    var data = JSON.parse(json);
+    var resopnse = new BaseResponse(data);
+    res.json(resopnse)
+})
+
+/** 获取吕约收条签章消耗记录*/
+router.get('/v1/getVipCardUseInfoItems', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/consumer/getVipCardUseInfoItemsResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+    var data = JSON.parse(json);
+    var resopnse = new BaseResponse(data);
+    res.json(resopnse)
+})
+
 
 function BaseResponse(object) {
     this.retCode = 0;
