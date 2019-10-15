@@ -1,0 +1,10 @@
+[
+  {
+    "code": "ALIPAY_TRANSFER_CERT",
+    "name": "支付宝汇款凭证"
+  },
+  {
+    "code": "BANK_TRANSFER_CERT",
+    "name": "银行卡转账凭证"
+  }
+]

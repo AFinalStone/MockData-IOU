@@ -148,6 +148,56 @@ router.get('/v1/iou/getHideIOU', function (req, res, next) {
     res.json(baseResopnse)
 })
 
+/** 获取债务人历史列表 */
+router.get('/v1/getLoanerHistory', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/front/getLoanerHistoryResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 删除债务人历史列表条目 */
+router.get('/v1/owe/delDebtorHistory', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/front/delDebtorHistoryResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 获取债务人邮箱历史列表 */
+router.get('/v1/owe/otherSideEmail', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/front/otherSideEmailResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 获取欠条相关凭证类型列表 */
+router.get('/v1/owe/cert/type/list', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/front/getQianTiaoAboutEvidenceTypeListResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 获取纠纷仲裁机构列表 */
+router.get('/v1/owe/dispute/manage/list', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/front/getDisputeOriginationListResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
 function BaseResponse(object) {
     this.retCode = 0;
     this.retMsg = "请求结果成功";

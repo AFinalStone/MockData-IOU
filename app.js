@@ -21,6 +21,7 @@ var fsRouter = require('./routes/fs');
 var newsRouter = require('./routes/news');
 var couponRouter = require('./routes/coupon');
 var baseRouter = require('./routes/base');
+var qrCodeRouter = require('./routes/qrCode');
 
 var app = express();
 
@@ -51,6 +52,7 @@ app.use('/api/fs', fsRouter);
 app.use('/api/news', newsRouter);
 app.use('/api/coupon', couponRouter);
 app.use('/api/base', baseRouter);
+app.use('/api/iou/borrowcode', qrCodeRouter);
 
 
 // catch 404 and forward to error handler

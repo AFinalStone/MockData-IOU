@@ -1,32 +1,50 @@
 {
-  "list": [{
-    "msgId": 1665,
-    "type": 300,
-    "justiceId": "190306153942000117",
-    "title": "借条：¥10,000",
-    "iouKind": 11,
-    "jumpUrl": "hmiou://m.54jietiao.com/iou/elec_borrow_detail_v2?justiceId=190306153942000117&iouId=0b2a9e8694a147ee84bceca450040fb3&iou_id=0b2a9e8694a147ee84bceca450040fb3",
-    "amount": "10000",
-    "iouStatus": 2,
-    "loanerName": "石要磊",
-    "borrowerName": "侯进云",
-    "returnWayDesc": "约定【到期日前】还清",
-    "returnDate": "2020-03-06 00:00:00",
-    "createTime": "2019-05-28 20:08:53"
-  }, {
-    "msgId": 1666,
-    "type": 300,
-    "justiceId": "190523143827000448",
-    "title": "借条：¥30,000",
-    "iouKind": 11,
-    "jumpUrl": "hmiou://m.54jietiao.com/iou/elec_borrow_detail_v2?justiceId=190523143827000448&iouId=e67ff445193545bab4b44d14e8eb5705&iou_id=e67ff445193545bab4b44d14e8eb5705",
-    "amount": "30000",
-    "iouStatus": 2,
-    "loanerName": "侯进云",
-    "borrowerName": "石要磊",
-    "returnWayDesc": "约定【到期日前】还清",
-    "returnDate": "2019-05-24 00:00:00",
-    "createTime": "2019-05-28 20:08:53"
-  }],
+  "list": [
+    {
+      "msgId": 1665,
+      "type": 300,
+      "justiceId": "190306153942000117",
+      "title": "借条：¥10,000",
+      "iouKind": 11,
+      "jumpUrl": "hmiou://m.54jietiao.com/iou/elec_borrow_detail_v2?justiceId=190306153942000117&iouId=0b2a9e8694a147ee84bceca450040fb3&iou_id=0b2a9e8694a147ee84bceca450040fb3",
+      "amount": "10000",
+      "iouStatus": 2,
+      "loanerName": "石要磊",
+      "borrowerName": "侯进云",
+      "returnWayDesc": "约定【到期日前】还清",
+      "returnDate": "2020-03-06 00:00:00",
+      "createTime": "2019-05-28 20:08:53"
+    },
+    {
+      "msgId": 1666,
+      "type": 300,
+      "justiceId": "190523143827000448",
+      "title": "借条：¥30,000",
+      "iouKind": 11,
+      "jumpUrl": "hmiou://m.54jietiao.com/iou/elec_borrow_detail_v2?justiceId=190523143827000448&iouId=e67ff445193545bab4b44d14e8eb5705&iou_id=e67ff445193545bab4b44d14e8eb5705",
+      "amount": "30000",
+      "iouStatus": 2,
+      "loanerName": "侯进云",
+      "borrowerName": "石要磊",
+      "returnWayDesc": "约定【到期日前】还清",
+      "returnDate": "2019-05-24 00:00:00",
+      "createTime": "2019-05-28 20:08:53"
+    },
+    {
+      "msgId": 1667,
+      "type": 300,
+      "justiceId": "190523143827000442",
+      "title": "欠条：¥30,000",
+      "iouKind": 15,
+      "jumpUrl": "hmiou://m.54jietiao.com/iou/elec_borrow_detail_v2?justiceId=190523143827000448&iouId=e67ff445193545bab4b44d14e8eb5705&iou_id=e67ff445193545bab4b44d14e8eb5705",
+      "amount": "30000",
+      "iouStatus": 2,
+      "loanerName": "侯进云",
+      "borrowerName": "石要磊",
+      "returnWayDesc": "约定【到期日前】还清",
+      "returnDate": "2019-05-24 00:00:00",
+      "createTime": "2019-05-28 20:08:53"
+    }
+  ],
   "lastReqDate": "2019-05-28 20:08:55"
 }
