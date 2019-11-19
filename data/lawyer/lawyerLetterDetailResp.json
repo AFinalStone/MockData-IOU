@@ -1,0 +1,23 @@
+{
+  "billId": "354803639409274880",
+  "price": 300,
+  "caseDescription": "出借金额，别人没还我！",
+  "doDate": null,
+  "fileUrls": ["https://iou-test.oss-cn-shanghai.aliyuncs.com/img/42/2019/11/2019111820460111601.jpg?1574081161000"],
+  "status": 3,
+  "receiveInfo": {
+    "receiverName": "石要磊",
+    "receiverIdCardNum": "410421199004034576",
+    "receiverMobile": "15267163669",
+    "receiverCityDetail": "北京市北京市东城区",
+    "receiverDetailAddress": "之旅红谷"
+  },
+  "custInfo": {
+    "avatarUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/18/2019/07/201907101750476572.jpg?1562752246000",
+    "name": "石要磊",
+    "mobile": "15267163669",
+    "applyDate": "2019-11-18 20:46:02"
+  },
+  "letterFinishInfo": null,
+  "appoint": false
+}

@@ -23,6 +23,8 @@ var couponRouter = require('./routes/coupon');
 var baseRouter = require('./routes/base');
 var qrCodeRouter = require('./routes/qrCode');
 var contactRouter = require('./routes/contract');
+var squareRouter = require('./routes/square');
+var lawyerRouter = require('./routes/lawyer');
 
 var app = express();
 
@@ -55,7 +57,8 @@ app.use('/api/coupon', couponRouter);
 app.use('/api/base', baseRouter);
 app.use('/api/iou/borrowcode', qrCodeRouter);
 app.use('/api/iou/contact', contactRouter);
-
+app.use('/api/square', squareRouter);
+app.use('/api/lawyer', lawyerRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

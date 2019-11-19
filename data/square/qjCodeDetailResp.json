@@ -1,0 +1,32 @@
+{
+		"contentPicUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/square/41/2019/10/29/296880444211843072.png?1572354915000",
+		"squareApplyId": "296880397302747136",
+		"userType": 301,
+		"borrowStatus": 100,
+		"loanerStatus": 0,
+		"borrowHeadPhoto": "",
+		"loanerHeadPhoto": "",
+		"contentDate": "2019-10-30 11:17:40",
+		"offlineType": -1,
+		"offlineDate": "2019-10-30 11:17:40",
+		"fileId": "",
+		"userId": 0,
+		"collectionFlag": false,
+		"userBlackFlag": false,
+		"squareLoanerRespList": [  {
+       "contentId": 0,
+        "headPhoto": "string",
+        "loanerName": "石磊",
+        "loanerSignDate": "2019-10-30 03:35:45"
+      }, {
+       "contentId": 0,
+        "headPhoto": "string",
+        "loanerName": "石磊",
+        "loanerSignDate": "2019-10-30 03:35:45"
+      }, {
+       "contentId": 0,
+        "headPhoto": "string",
+        "loanerName": "石磊",
+        "loanerSignDate": "2019-10-30 03:35:45"
+      }]
+}

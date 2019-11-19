@@ -1,23 +1,24 @@
 {
-  "alipayInfoResp": {
-    "alipayAccount": "15267163779",
-    "hasAlipayBinded": true
+  "userNameInfoResp": {
+    "hasRealNamed": true,
+    "realName": "石要磊",
+    "idCardNum": "410421199004034576",
+    "sex": 1
   },
   "bankCardResp": {
-    "bankCardNo": "12345678900",
-    "hasBinded": false
+    "hasBinded": true,
+    "bankCardNo": "6212261202048981410"
+  },
+  "alipayInfoResp": {
+    "hasAlipayBinded": true,
+    "alipayAccount": "15267163669"
   },
   "mailInfoResp": {
     "hasMailBinded": true,
-    "mailAddr": "string"
+    "mailAddr": "602392033@qq.com"
   },
   "signResp": {
     "writeSign": true
   },
-  "userNameInfoResp": {
-    "hasRealNamed": true,
-    "idCardNum": "string",
-    "realName": "string",
-    "sex": 0
-  }
+  "lawyer": true
 }
