@@ -26,6 +26,16 @@ router.get('/v1/lawyer/auth/process', function (req, res, next) {
     res.json(baseResopnse)
 })
 
+/** 获取律师认证失败的信息*/
+router.get('/v1/lawyer/auth/fail/detail', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/lawyer/lawyerAuthFailedDetailResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
 /** 律师首页详情 */
 router.get('/v1/lawyer/detail', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/lawyer/LawyerHomeDetailResp.json');

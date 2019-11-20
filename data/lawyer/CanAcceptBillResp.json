@@ -1,5 +1,4 @@
 {
-  "firstAuthState": 0,
-  "updateLawFirmState": 0,
-  "updateYearCheckState": 0
+  "result": 3,
+  "note": "您的年检信息已过期，请在2019年9月1日前更新，以免影响您的正常接单！"
 }
