@@ -1,0 +1,17 @@
+{
+  "billId": "354803639409274880",
+  "price": 300,
+  "caseDescription": "出借金额，别人没还我！",
+  "doDate": "2019-11-18 20:46:02",
+  "fileUrls": [
+    "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/42/2019/11/2019111820460111601.jpg?1574081161000"
+  ],
+  "custInfo": {
+    "avatarUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/18/2019/07/201907101750476572.jpg?1562752246000",
+    "name": "石要磊",
+    "mobile": "15267163669",
+    "applyDate": "2019-11-18 20:46:02"
+  },
+  "status": 3,
+  "appoint": false
+}

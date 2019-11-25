@@ -1,34 +1,9 @@
 {
-  "authCerts": [
-    {
-      "picId": "2p+yNaqP32cT51SmDdfaSg==",
-      "url": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/42/2019/11/2019111419272811454.jpg?1573730848000"
-    },
-    {
-      "picId": "sSb/8RuA6S6k/T6auZIpkw==",
-      "url": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/42/2019/11/2019111813571811560.jpg?1574056638000"
-    }
-  ],
-  "image": {
-    "picId": "2W1tLQz5jzICE4ODQCKCjA==",
-    "url": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/42/2019/11/2019111815295011565.jpg?1574062190000"
-  },
+
+
   "info": "隶属于杭州黑马科技律师事务所，从业多年，经验丰富，能力强势，能够解决复杂的法律事务关系！乐意为您效劳！",
   "holdingDate": "2019-11-18 20:46:02",
   "lawFirm": "杭州西溪湿地",
-  "licenseNumber": "1212312312",
-  "honors": [
-    {
-      "picId": "4mAxlB9SFwJoUf8h21iVqA==",
-      "url": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/42/2019/11/2019111419272711453.jpg?1573730848000"
-    },
-    {
-      "picId": "2p+yNaqP32cT51SmDdfaSg==",
-      "url": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/42/2019/11/2019111419272811454.jpg?1573730848000"
-    },
-    {
-      "picId": "sSb/8RuA6S6k/T6auZIpkw==",
-      "url": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/42/2019/11/2019111813571811560.jpg?1574056638000"
-    }
-  ]
+  "licenseNumber": "12345678901234567"
+
 }

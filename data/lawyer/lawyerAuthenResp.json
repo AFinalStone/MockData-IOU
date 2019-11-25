@@ -1,31 +1,22 @@
 {
-  "authName": "石要磊",
-  "holdingYearCount": 1,
-  "lawFirm": "杭州西溪湿地",
-  "location": "浙江省杭州市西湖区",
+  "authCerts": [
+    {
+      "picId": "2p+yNaqP32cT51SmDdfaSg==",
+      "url": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/42/2019/11/2019111419272811454.jpg?1573730848000"
+    },
+    {
+      "picId": "sSb/8RuA6S6k/T6auZIpkw==",
+      "url": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/42/2019/11/2019111813571811560.jpg?1574056638000"
+    }
+  ],
   "image": {
     "picId": "2W1tLQz5jzICE4ODQCKCjA==",
     "url": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/42/2019/11/2019111815295011565.jpg?1574062190000"
   },
-  "services": [
-    {
-      "serviceId": 7,
-      "logo": "xxx",
-      "serviceName": "律师函",
-      "serviceDesc": "有威慑力的法律文书",
-      "servicePrice": "¥ 10000.00/份",
-      "price": 10000
-    },
-    {
-      "serviceId": 3,
-      "logo": "xxx",
-      "serviceName": "律师咨询",
-      "serviceDesc": "",
-      "servicePrice": "¥ 100.00/份",
-      "price": 100
-    }
-  ],
   "info": "隶属于杭州黑马科技律师事务所，从业多年，经验丰富，能力强势，能够解决复杂的法律事务关系！乐意为您效劳！",
+  "holdingDate": "2019-11-18 20:46:02",
+  "lawFirm": "杭州西溪湿地",
+  "licenseNumber": "12345678901234567",
   "honors": [
     {
       "picId": "4mAxlB9SFwJoUf8h21iVqA==",

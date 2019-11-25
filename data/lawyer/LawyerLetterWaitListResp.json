@@ -1,5 +1,53 @@
 {
-  "firstAuthState": 0,
-  "updateLawFirmState": 0,
-  "updateYearCheckState": 0
+  "total": 0,
+  "list": [
+    {
+      "createTime": "2019-11-18 20:46:55",
+      "billId": "354803639409274880",
+      "relationId": 18,
+      "caseDescription": "出借金额，别人没还我！",
+      "type": 2,
+      "billType": 2,
+      "price": 300,
+      "status": 3,
+      "avatarUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/18/2019/07/201907101750476572.jpg?1562752246000",
+      "name": "石要磊"
+    },
+    {
+      "createTime": "2019-11-18 09:43:49",
+      "billId": "343236911873224704",
+      "relationId": 14,
+      "caseDescription": "这是一个案件，价钱不还，搞得我很郁闷。借钱不还的人，该怎额班呢。这是一个案件，价钱不还，搞得我很郁闷。借钱不还的人，该怎额班呢。这是一个案件，价钱不还，搞得我很郁闷。借钱不还的人，该怎额班呢。这是一个案件，价钱不还，搞得我很郁闷。借钱不还的人，该怎额班呢。这是一个案件，价钱不还，搞得我很郁闷。借钱不还的人，该怎额班呢。这是一个案件，价钱不还，搞得我很郁闷。借钱不还的人，该怎额班呢。",
+      "type": 1,
+      "billType": 1,
+      "price": 500,
+      "status": 4,
+      "avatarUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/18/2019/04/201904191353575173.jpg?1555653220000",
+      "name": "侯进云"
+    },
+    {
+      "createTime": "2019-11-15 18:49:35",
+      "billId": "339993362570539008",
+      "relationId": 13,
+      "caseDescription": "律师函描述内容，需要提交律师检查",
+      "type": 1,
+      "billType": 1,
+      "price": 300,
+      "status": 4,
+      "avatarUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/User/1034/Avatar/ffd6a800216b46d591252fc27e0dbbd3.jpg?1530794581000",
+      "name": "郦梦蕾"
+    },
+    {
+      "createTime": "2019-11-15 16:57:18",
+      "billId": "343236911873224704",
+      "relationId": 11,
+      "caseDescription": "这是一个案件，价钱不还，搞得我很郁闷。借钱不还的人，该怎额班呢。这是一个案件，价钱不还，搞得我很郁闷。借钱不还的人，该怎额班呢。这是一个案件，价钱不还，搞得我很郁闷。借钱不还的人，该怎额班呢。这是一个案件，价钱不还，搞得我很郁闷。借钱不还的人，该怎额班呢。这是一个案件，价钱不还，搞得我很郁闷。借钱不还的人，该怎额班呢。这是一个案件，价钱不还，搞得我很郁闷。借钱不还的人，该怎额班呢。",
+      "type": 1,
+      "billType": 1,
+      "price": 500,
+      "status": 5,
+      "avatarUrl": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/18/2019/04/201904191353575173.jpg?1555653220000",
+      "name": "侯进云"
+    }
+  ]
 }

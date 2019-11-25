@@ -26,6 +26,16 @@ router.get('/v1/lawyer/auth/process', function (req, res, next) {
     res.json(baseResopnse)
 })
 
+/** 律师认证 */
+router.post('/v1/lawyer/auth/create', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/lawyer/lawyerAuthenResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
 /** 获取律师认证失败的信息*/
 router.get('/v1/lawyer/auth/fail/detail', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/lawyer/lawyerAuthFailedDetailResp.json');
@@ -66,6 +76,16 @@ router.post('/v1/lawyerBill', function (req, res, next) {
     res.json(baseResopnse)
 })
 
+/** 律师工作台律师咨询订单列表 */
+router.post('/v1/consultation/lawyerConsultationWaitList', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/lawyer/lawyerConsultationWaitListResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
 /** 律师工作台律师函订单列表 */
 router.post('/v1/letter/lawyerLetterWaitList', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/lawyer/LawyerLetterWaitListResp.json');
@@ -89,6 +109,36 @@ router.post('/v1/letter/lawyerInviteWaitList', function (req, res, next) {
 /** 律师函订单详情 **/
 router.post('/v1/letter/lawyerLetterDetail', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/lawyer/lawyerLetterDetailResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 律师咨询订单详情 **/
+router.post('/v1/consultation/lawyerConsultationDetail', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/lawyer/lawyerConsultationDetailResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 律师咨询订单详情的解答列表 **/
+router.get('/api/lawyer/v1/consultation/replies', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/lawyer/lawyerConsultationDetailAnswerListResp.json');
+    var json = fs.readFileSync(file, 'utf-8')
+
+    var userModule = JSON.parse(json);
+    var baseResopnse = new BaseResponse(userModule);
+    res.json(baseResopnse)
+})
+
+/** 律师解答用户问题 **/
+router.post('/v1/consultation/reply/lawyer', function (req, res, next) {
+    var file = path.join(__dirname, '../', '/data/lawyer/lawyerAnswerResp.json');
     var json = fs.readFileSync(file, 'utf-8')
 
     var userModule = JSON.parse(json);
