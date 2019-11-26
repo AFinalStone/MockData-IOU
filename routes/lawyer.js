@@ -127,7 +127,7 @@ router.post('/v1/consultation/lawyerConsultationDetail', function (req, res, nex
 })
 
 /** 律师咨询订单详情的解答列表 **/
-router.get('/api/lawyer/v1/consultation/replies', function (req, res, next) {
+router.get('/v1/consultation/replies', function (req, res, next) {
     var file = path.join(__dirname, '../', '/data/lawyer/lawyerConsultationDetailAnswerListResp.json');
     var json = fs.readFileSync(file, 'utf-8')
 

@@ -12,6 +12,14 @@
     "mobile": "15267163669",
     "applyDate": "2019-11-18 20:46:02"
   },
-  "status": 3,
-  "appoint": false
+  "status": 4,
+  "appoint": false,
+  "lawyerAbout": {
+    "image": "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/18/2019/07/201907101750476572.jpg?1562752246000",
+    "lawFirm": "黑马科技",
+    "lawYear": "10",
+    "lawyerId": "1231231231",
+    "name": "石要磊"
+  },
+  "leftTime": 72000
 }

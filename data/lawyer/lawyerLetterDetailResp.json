@@ -3,7 +3,9 @@
   "price": 300,
   "caseDescription": "出借金额，别人没还我！",
   "doDate": "2019-11-18 20:46:02",
-  "fileUrls": ["https://iou-test.oss-cn-shanghai.aliyuncs.com/img/42/2019/11/2019111820460111601.jpg?1574081161000"],
+  "fileUrls": [
+    "https://iou-test.oss-cn-shanghai.aliyuncs.com/img/42/2019/11/2019111820460111601.jpg?1574081161000"
+  ],
   "status": 3,
   "receiveInfo": {
     "receiverName": "石要磊",
